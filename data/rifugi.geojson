@@ -1,0 +1,7574 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-01-20T08:14:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/39271752",
+      "properties": {
+        "@id": "way/39271752",
+        "building": "yes",
+        "ele": "1260",
+        "name": "Casa dell'Alpino",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4815749,
+              46.0080914
+            ],
+            [
+              8.4815542,
+              46.0081513
+            ],
+            [
+              8.4812971,
+              46.0081085
+            ],
+            [
+              8.4813178,
+              46.0080486
+            ],
+            [
+              8.4815749,
+              46.0080914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39670282",
+      "properties": {
+        "@id": "way/39670282",
+        "building": "yes",
+        "ele": "2747",
+        "name": "Rifugio Vaccarone",
+        "phone": "+39 0122 3226",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiovaccarone.eu/",
+        "wikipedia": "it:Rifugio Luigi Vaccarone"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9169348,
+              45.154024
+            ],
+            [
+              6.9169068,
+              45.1539528
+            ],
+            [
+              6.9170943,
+              45.1539161
+            ],
+            [
+              6.9171223,
+              45.1539873
+            ],
+            [
+              6.9169348,
+              45.154024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39670289",
+      "properties": {
+        "@id": "way/39670289",
+        "building": "yes",
+        "name": "Refigio Levi Molinari",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Levi Molinari"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.895307,
+              45.1149901
+            ],
+            [
+              6.8953077,
+              45.1148896
+            ],
+            [
+              6.8954038,
+              45.1148899
+            ],
+            [
+              6.895404,
+              45.1148722
+            ],
+            [
+              6.8954999,
+              45.1148725
+            ],
+            [
+              6.8954991,
+              45.1149907
+            ],
+            [
+              6.895307,
+              45.1149901
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39670308",
+      "properties": {
+        "@id": "way/39670308",
+        "building": "yes",
+        "name": "Gr.a Valfredda",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.7959165,
+              45.0905335
+            ],
+            [
+              6.7961861,
+              45.0905588
+            ],
+            [
+              6.796161,
+              45.0906922
+            ],
+            [
+              6.7958915,
+              45.090667
+            ],
+            [
+              6.7959165,
+              45.0905335
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39672226",
+      "properties": {
+        "@id": "way/39672226",
+        "building": "yes",
+        "ele": "2595",
+        "name": "Rifugio Stellina",
+        "phone": "+39 3487932330",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0418004,
+              45.215666
+            ],
+            [
+              7.0417256,
+              45.2155606
+            ],
+            [
+              7.0418347,
+              45.2155222
+            ],
+            [
+              7.0419095,
+              45.2156276
+            ],
+            [
+              7.0418004,
+              45.215666
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39674742",
+      "properties": {
+        "@id": "way/39674742",
+        "building": "yes",
+        "ele": "2854",
+        "name": "Rifugio Ca' d'Asti",
+        "operator": "Privato",
+        "phone": "+39 0122 33192",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Cà d'Asti"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0746086,
+              45.1911452
+            ],
+            [
+              7.0746171,
+              45.191043
+            ],
+            [
+              7.0748307,
+              45.1910518
+            ],
+            [
+              7.0748222,
+              45.191154
+            ],
+            [
+              7.0746086,
+              45.1911452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39674761",
+      "properties": {
+        "@id": "way/39674761",
+        "building": "yes",
+        "ele": "2345",
+        "name": "Capanna Sociale Aurelio Ravetto",
+        "operator": "CAI",
+        "phone": "+39 011 6270441",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1313686,
+              45.1869709
+            ],
+            [
+              7.1313303,
+              45.1868839
+            ],
+            [
+              7.1319292,
+              45.1867531
+            ],
+            [
+              7.1319675,
+              45.1868401
+            ],
+            [
+              7.1316126,
+              45.1869176
+            ],
+            [
+              7.1313686,
+              45.1869709
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/55693706",
+      "properties": {
+        "@id": "way/55693706",
+        "addr:city": "Balme",
+        "building": "yes",
+        "ele": "2659",
+        "name": "Rifugio Bartolomeo Gastaldi",
+        "name:fr": "Refuge Bartolomeo Gastaldi",
+        "phone": "+39 0123 56 50 08",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiogastaldi.com/",
+        "wikipedia": "it:Rifugio Bartolomeo Gastaldi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1432694,
+              45.297926
+            ],
+            [
+              7.1432098,
+              45.2978
+            ],
+            [
+              7.1434256,
+              45.2977495
+            ],
+            [
+              7.1434852,
+              45.2978756
+            ],
+            [
+              7.1432694,
+              45.297926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/59467218",
+      "properties": {
+        "@id": "way/59467218",
+        "capacity": "26",
+        "contact:email": "caiivrea@libero.it",
+        "contact:phone": "+39 0124 953140",
+        "contact:website": "http://www.caiivrea.it/",
+        "ele": "2250",
+        "name": "Rifugio Guglielmo Jervis",
+        "operator": "Club Alpino Italiano Sezione di Ivrea",
+        "shower": "yes",
+        "toilets": "yes",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Guglielmo Jervis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1903177,
+              45.433631
+            ],
+            [
+              7.1903109,
+              45.4335573
+            ],
+            [
+              7.1904673,
+              45.4335503
+            ],
+            [
+              7.1904741,
+              45.433624
+            ],
+            [
+              7.1903177,
+              45.433631
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/60957361",
+      "properties": {
+        "@id": "way/60957361",
+        "addr:city": "Roure",
+        "ele": "2030",
+        "name": "Rifugio Selleries",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Selleries"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1203511,
+              45.0477288
+            ],
+            [
+              7.1202824,
+              45.0476024
+            ],
+            [
+              7.1203381,
+              45.0475873
+            ],
+            [
+              7.1203053,
+              45.0475269
+            ],
+            [
+              7.120386,
+              45.047505
+            ],
+            [
+              7.1204141,
+              45.0475566
+            ],
+            [
+              7.1204881,
+              45.0475365
+            ],
+            [
+              7.1205616,
+              45.0476716
+            ],
+            [
+              7.1203511,
+              45.0477288
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/61047382",
+      "properties": {
+        "@id": "way/61047382",
+        "building": "yes",
+        "ele": "1585",
+        "name": "Rifugio Monte Barone",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.1616576,
+              45.7280348
+            ],
+            [
+              8.1616956,
+              45.727995
+            ],
+            [
+              8.1618204,
+              45.7280603
+            ],
+            [
+              8.1617824,
+              45.7281001
+            ],
+            [
+              8.1616576,
+              45.7280348
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/70215945",
+      "properties": {
+        "@id": "way/70215945",
+        "building": "yes",
+        "ele": "1850",
+        "name": "Rifugio Città di Ciriè",
+        "phone": "+39 0123 820008",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiocirie.it",
+        "wikipedia": "it:Rifugio Città di Cirié"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1633976,
+              45.3072423
+            ],
+            [
+              7.1635381,
+              45.3070025
+            ],
+            [
+              7.1637314,
+              45.3070585
+            ],
+            [
+              7.1635909,
+              45.3072983
+            ],
+            [
+              7.1633976,
+              45.3072423
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/75614681",
+      "properties": {
+        "@id": "way/75614681",
+        "building": "yes",
+        "ele": "2010",
+        "name": "Rifugio Genova-Figari",
+        "operator": "CAI \"Ligure\" - Genova",
+        "phone": "+39 3477959051",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugiogenova.it/",
+        "wikipedia": "it:Rifugio Genova-Figari"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.3341815,
+              44.1611763
+            ],
+            [
+              7.3342064,
+              44.1610359
+            ],
+            [
+              7.3343384,
+              44.1610479
+            ],
+            [
+              7.3343134,
+              44.1611884
+            ],
+            [
+              7.3341815,
+              44.1611763
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/76258503",
+      "properties": {
+        "@id": "way/76258503",
+        "building": "yes",
+        "ele": "1383",
+        "name": "Rifugio Amprimo",
+        "phone": "+39 0122 49353",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugioamprimo.it/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1451632,
+              45.0990621
+            ],
+            [
+              7.1451492,
+              45.0992802
+            ],
+            [
+              7.1449582,
+              45.0992741
+            ],
+            [
+              7.1449722,
+              45.0990561
+            ],
+            [
+              7.1451632,
+              45.0990621
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/76706584",
+      "properties": {
+        "@id": "way/76706584",
+        "building": "yes",
+        "fixme": "resurvey",
+        "name": "Rifugio Toesca",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1399705,
+              45.0820528
+            ],
+            [
+              7.1402047,
+              45.0820046
+            ],
+            [
+              7.1402409,
+              45.0820924
+            ],
+            [
+              7.1400068,
+              45.0821406
+            ],
+            [
+              7.1399705,
+              45.0820528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/77684438",
+      "properties": {
+        "@id": "way/77684438",
+        "building": "yes",
+        "name": "Baita Bagneri - Cai Biella",
+        "operator": "Club Alpino Italiano - BIella",
+        "tourism": "alpine_hut",
+        "website": "caibiella.it"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9479749,
+              45.5780267
+            ],
+            [
+              7.9478223,
+              45.5778325
+            ],
+            [
+              7.9479286,
+              45.5777775
+            ],
+            [
+              7.9480165,
+              45.5778811
+            ],
+            [
+              7.9480812,
+              45.5779976
+            ],
+            [
+              7.9479749,
+              45.5780267
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/78391754",
+      "properties": {
+        "@id": "way/78391754",
+        "building": "yes",
+        "description": "Chiavi in custodia presso (ask for the key at):Gruppo Escursionisti Savonesi, via Pirandello 35r Savona; Phone +39 3489273133",
+        "ele": "1550",
+        "name": "Rifugio Ciarlo Bossi",
+        "operator": "Federazione Italiana Escursionisti",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.7382073,
+              44.150961
+            ],
+            [
+              7.7383509,
+              44.1508375
+            ],
+            [
+              7.7384628,
+              44.1509087
+            ],
+            [
+              7.7383198,
+              44.1510287
+            ],
+            [
+              7.7382073,
+              44.150961
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/78416351",
+      "properties": {
+        "@id": "way/78416351",
+        "building": "yes",
+        "ele": "2070",
+        "name": "Rifugio Don Barbera",
+        "phone": "+39 01741771000",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugiodonbarbera.eu/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6734948,
+              44.1581204
+            ],
+            [
+              7.6737119,
+              44.1581291
+            ],
+            [
+              7.6737031,
+              44.1582407
+            ],
+            [
+              7.6734861,
+              44.158232
+            ],
+            [
+              7.6734948,
+              44.1581204
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/83490821",
+      "properties": {
+        "@id": "way/83490821",
+        "ele": "1840",
+        "name": "Rifugio Soria Ellena",
+        "phone": "+39 0171978382",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugiosoriaellena.com/",
+        "wikipedia": "it:Rifugio Soria Ellena"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.3639851,
+              44.1400418
+            ],
+            [
+              7.3639908,
+              44.1398991
+            ],
+            [
+              7.3640905,
+              44.1399012
+            ],
+            [
+              7.3640847,
+              44.1400439
+            ],
+            [
+              7.3639851,
+              44.1400418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/85798828",
+      "properties": {
+        "@id": "way/85798828",
+        "building": "yes",
+        "name": "Capanna Renata",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9454995,
+              45.6444869
+            ],
+            [
+              7.94555,
+              45.6444413
+            ],
+            [
+              7.9456328,
+              45.6444816
+            ],
+            [
+              7.9455808,
+              45.6445284
+            ],
+            [
+              7.9454995,
+              45.6444869
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/87735205",
+      "properties": {
+        "@id": "way/87735205",
+        "addr:city": "Celle di Caprie",
+        "addr:street": "Piazza Santa Maria della Stella",
+        "building": "yes",
+        "ele": "998",
+        "name": "Rifugio Rocca Sella",
+        "phone": "+39 338 4253855",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.3449889,
+              45.1314857
+            ],
+            [
+              7.3451372,
+              45.1315569
+            ],
+            [
+              7.3450418,
+              45.1316558
+            ],
+            [
+              7.3448935,
+              45.1315846
+            ],
+            [
+              7.3449889,
+              45.1314857
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/96741752",
+      "properties": {
+        "@id": "way/96741752",
+        "building": "yes",
+        "name": "Rifugio per la pace",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.8983571,
+              44.4214456
+            ],
+            [
+              6.898385,
+              44.4214987
+            ],
+            [
+              6.8980449,
+              44.4216778
+            ],
+            [
+              6.898017,
+              44.4216247
+            ],
+            [
+              6.8983571,
+              44.4214456
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/103839515",
+      "properties": {
+        "@id": "way/103839515",
+        "building": "yes",
+        "name": "Bivacco Alda e Carla Merchesotti",
+        "operator": "Club Alpino Italiano - sezione di Novi Ligure",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.0167974,
+              44.7271851
+            ],
+            [
+              9.0168579,
+              44.7271354
+            ],
+            [
+              9.0169332,
+              44.7271816
+            ],
+            [
+              9.0168726,
+              44.7272314
+            ],
+            [
+              9.0167974,
+              44.7271851
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/107551809",
+      "properties": {
+        "@id": "way/107551809",
+        "building": "yes",
+        "name": "Palazzina Sertorio",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.2046415,
+              45.0187758
+            ],
+            [
+              7.2046534,
+              45.0186472
+            ],
+            [
+              7.2048131,
+              45.0186546
+            ],
+            [
+              7.2048013,
+              45.0187832
+            ],
+            [
+              7.2046415,
+              45.0187758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/108801928",
+      "properties": {
+        "@id": "way/108801928",
+        "building": "yes",
+        "ele": "1390",
+        "name": "Rifugio Val Gravio",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiovalgravio.it"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1718508,
+              45.0854598
+            ],
+            [
+              7.1719668,
+              45.0854782
+            ],
+            [
+              7.1719314,
+              45.0855894
+            ],
+            [
+              7.1717552,
+              45.0855615
+            ],
+            [
+              7.1717907,
+              45.0854502
+            ],
+            [
+              7.1718508,
+              45.0854598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/112184075",
+      "properties": {
+        "@id": "way/112184075",
+        "contact:email": "gestori@casacanada.eu",
+        "contact:phone": "+39 0121 353160",
+        "contact:website": "http://www.casacanada.eu/",
+        "cuisine": "italian",
+        "ele": "1061",
+        "name": "Rifugio Melano Casa Canada",
+        "old_name": "Rifugio Melano",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Melano"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.3009212,
+              44.9666683
+            ],
+            [
+              7.3009223,
+              44.96658
+            ],
+            [
+              7.301008,
+              44.9665762
+            ],
+            [
+              7.3010798,
+              44.9665326
+            ],
+            [
+              7.301156,
+              44.9665337
+            ],
+            [
+              7.3012311,
+              44.9665052
+            ],
+            [
+              7.3012829,
+              44.9665323
+            ],
+            [
+              7.3012967,
+              44.9665803
+            ],
+            [
+              7.3011955,
+              44.9666239
+            ],
+            [
+              7.3012087,
+              44.9666456
+            ],
+            [
+              7.3010593,
+              44.966684
+            ],
+            [
+              7.3010505,
+              44.9666653
+            ],
+            [
+              7.3009212,
+              44.9666683
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/113144370",
+      "properties": {
+        "@id": "way/113144370",
+        "building": "yes",
+        "ele": "2192",
+        "name": "Rifugio E. Margaroli 2196m",
+        "note": "Eteppe 3 GTA Rifugio Margaroli - Alpe Devero 5.00 Std. 15 km 500 up 1060 down",
+        "operator": "Club Alpino Italiano",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Margaroli"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.3650615,
+              46.3852908
+            ],
+            [
+              8.3650462,
+              46.3851851
+            ],
+            [
+              8.3651862,
+              46.3851754
+            ],
+            [
+              8.3652015,
+              46.3852811
+            ],
+            [
+              8.3650615,
+              46.3852908
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/115758220",
+      "properties": {
+        "@id": "way/115758220",
+        "name": "Rifugio Ervedo Zanotti",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Zanotti"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.999592,
+              44.2999757
+            ],
+            [
+              6.9996423,
+              44.300047
+            ],
+            [
+              6.9994662,
+              44.3001435
+            ],
+            [
+              6.9994117,
+              44.300068
+            ],
+            [
+              6.999592,
+              44.2999757
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/121607826",
+      "properties": {
+        "@id": "way/121607826",
+        "addr:city": "Sagliano Micca",
+        "capacity": "12",
+        "ele": "1872",
+        "name": "Rifugio Lago della Vecchia",
+        "operator": "Comunità Montana Alta Valle Cervo - La Bursch",
+        "phone": "+39 338 5027668",
+        "shower": "yes",
+        "source": "PCN",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiolagodellavecchia.com/",
+        "wikipedia": "it:Rifugio della Vecchia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9167118,
+              45.693771
+            ],
+            [
+              7.9168436,
+              45.6937905
+            ],
+            [
+              7.9168304,
+              45.6938377
+            ],
+            [
+              7.9168011,
+              45.6938339
+            ],
+            [
+              7.9167724,
+              45.6939803
+            ],
+            [
+              7.9166905,
+              45.6939753
+            ],
+            [
+              7.9167187,
+              45.6938237
+            ],
+            [
+              7.9166979,
+              45.693821
+            ],
+            [
+              7.9167118,
+              45.693771
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/121968864",
+      "properties": {
+        "@id": "way/121968864",
+        "building": "yes",
+        "name": "Rifugio FIE Artesina",
+        "operator": "FIE",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.7537228,
+              44.2490535
+            ],
+            [
+              7.7536966,
+              44.2489398
+            ],
+            [
+              7.7538744,
+              44.2489159
+            ],
+            [
+              7.7539025,
+              44.2490355
+            ],
+            [
+              7.7537228,
+              44.2490535
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/122993300",
+      "properties": {
+        "@id": "way/122993300",
+        "addr:city": "Valdieri",
+        "cuisine": "italian;regional",
+        "ele": "1764",
+        "email": "info@rifugiovalasco.it",
+        "name": "Rifugio Valasco",
+        "operator": "Flavio Poggio",
+        "phone": "+39 348 3230266",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiovalasco.it/",
+        "wikipedia": "it:Rifugio Valasco"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.2324474,
+              44.1987436
+            ],
+            [
+              7.2326498,
+              44.198485
+            ],
+            [
+              7.233034,
+              44.1986396
+            ],
+            [
+              7.2328316,
+              44.1988982
+            ],
+            [
+              7.2324474,
+              44.1987436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/126278404",
+      "properties": {
+        "@id": "way/126278404",
+        "building": "yes",
+        "cuisine": "Piemontese",
+        "name": "Rifugio Alpe Baranca",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.1080402,
+              45.9248842
+            ],
+            [
+              8.108324,
+              45.9250151
+            ],
+            [
+              8.1082659,
+              45.9250753
+            ],
+            [
+              8.1079846,
+              45.9249445
+            ],
+            [
+              8.1080402,
+              45.9248842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/127317594",
+      "properties": {
+        "@id": "way/127317594",
+        "building": "yes",
+        "ele": "2482",
+        "name": "Rifugio Città di Busto 2482 m",
+        "operator": "CAI Sezione di Busto Arsizio",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Città di Busto"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.3631251,
+              46.4341135
+            ],
+            [
+              8.3629841,
+              46.4340633
+            ],
+            [
+              8.3630611,
+              46.4339605
+            ],
+            [
+              8.3632021,
+              46.4340107
+            ],
+            [
+              8.3631251,
+              46.4341135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/132374060",
+      "properties": {
+        "@id": "way/132374060",
+        "ele": "2020",
+        "name": "RIfugio Albergo Alpino \"Pian del Re\"",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0959026,
+              44.700231
+            ],
+            [
+              7.0962489,
+              44.7001035
+            ],
+            [
+              7.0963119,
+              44.7001871
+            ],
+            [
+              7.0959669,
+              44.7003151
+            ],
+            [
+              7.0959026,
+              44.700231
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/132416702",
+      "properties": {
+        "@id": "way/132416702",
+        "ele": "2741",
+        "name": "Rifugio Vitale Giacoletti",
+        "operator": "C.A.I. Barge",
+        "smoking": "no",
+        "tourism": "alpine_hut",
+        "website": "www.giacoletti.it",
+        "wikipedia": "it:Rifugio Vitale Giacoletti"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0760237,
+              44.6967871
+            ],
+            [
+              7.0758279,
+              44.6967199
+            ],
+            [
+              7.0758792,
+              44.6966444
+            ],
+            [
+              7.0760749,
+              44.6967117
+            ],
+            [
+              7.0760237,
+              44.6967871
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/133327655",
+      "properties": {
+        "@id": "way/133327655",
+        "building": "yes",
+        "ele": "2450",
+        "name": "Rifugio Vallanta",
+        "operator": "CAI",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiovallanta.it",
+        "wikipedia": "it:Rifugio Vallanta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0643868,
+              44.6657581
+            ],
+            [
+              7.0644061,
+              44.6656962
+            ],
+            [
+              7.0644284,
+              44.6655583
+            ],
+            [
+              7.06452,
+              44.6656041
+            ],
+            [
+              7.064585,
+              44.6657057
+            ],
+            [
+              7.064427,
+              44.665775
+            ],
+            [
+              7.0643868,
+              44.6657581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/133522317",
+      "properties": {
+        "@id": "way/133522317",
+        "building": "yes",
+        "ele": "1706",
+        "email": "rifugioiltruc@gmail.com",
+        "name": "Il Truc",
+        "phone": "+39 0122 32963",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugioiltruc.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.062687,
+              45.1650581
+            ],
+            [
+              7.0627523,
+              45.1649847
+            ],
+            [
+              7.0628696,
+              45.1650365
+            ],
+            [
+              7.0628043,
+              45.16511
+            ],
+            [
+              7.062687,
+              45.1650581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/142208367",
+      "properties": {
+        "@id": "way/142208367",
+        "building": "yes",
+        "ele": "2312",
+        "email": "rifugiomombarone@gmail.com",
+        "name": "Rifugio Mombarone",
+        "operator": "Mosca Maria Cristina",
+        "phone": "+39 015 401960",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Mombarone"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.8940865,
+              45.5851207
+            ],
+            [
+              7.8940233,
+              45.5850044
+            ],
+            [
+              7.8941356,
+              45.5849733
+            ],
+            [
+              7.8941988,
+              45.5850863
+            ],
+            [
+              7.8940865,
+              45.5851207
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/144005498",
+      "properties": {
+        "@id": "way/144005498",
+        "building": "yes",
+        "name": "Chiaromonte",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.7413308,
+              45.5403159
+            ],
+            [
+              7.7413308,
+              45.5402133
+            ],
+            [
+              7.7414476,
+              45.5402147
+            ],
+            [
+              7.7414436,
+              45.5403187
+            ],
+            [
+              7.7413308,
+              45.5403159
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/144153142",
+      "properties": {
+        "@id": "way/144153142",
+        "name": "Alpet",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.8771357,
+              44.2607752
+            ],
+            [
+              7.8771609,
+              44.2606888
+            ],
+            [
+              7.8770955,
+              44.2606744
+            ],
+            [
+              7.8771156,
+              44.2605915
+            ],
+            [
+              7.877352,
+              44.2606744
+            ],
+            [
+              7.8773902,
+              44.2606854
+            ],
+            [
+              7.8773465,
+              44.2607771
+            ],
+            [
+              7.8772747,
+              44.2607637
+            ],
+            [
+              7.8772497,
+              44.2608017
+            ],
+            [
+              7.8771357,
+              44.2607752
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/145204125",
+      "properties": {
+        "@id": "way/145204125",
+        "addr:city": "Bobbio Pellice",
+        "building": "yes",
+        "ele": "1732",
+        "email": "info@jervis.it",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Rifugio Willy Jervis",
+        "operator": "Cai Uget Val Pellice",
+        "phone": "+39 0121 932755",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiojervis.it",
+        "wikipedia": "it:Rifugio Willy Jervis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0392074,
+              44.7734628
+            ],
+            [
+              7.0391961,
+              44.7733324
+            ],
+            [
+              7.0394495,
+              44.7733214
+            ],
+            [
+              7.0394608,
+              44.7734518
+            ],
+            [
+              7.0392074,
+              44.7734628
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/145204152",
+      "properties": {
+        "@id": "way/145204152",
+        "building": "yes",
+        "name": "La Ciabota del Pra",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0388268,
+              44.7734908
+            ],
+            [
+              7.038825,
+              44.7734777
+            ],
+            [
+              7.0389078,
+              44.7734719
+            ],
+            [
+              7.0389098,
+              44.7734856
+            ],
+            [
+              7.0389945,
+              44.7734796
+            ],
+            [
+              7.0390009,
+              44.7735245
+            ],
+            [
+              7.0387258,
+              44.773544
+            ],
+            [
+              7.0387194,
+              44.7734985
+            ],
+            [
+              7.0388268,
+              44.7734908
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/145471474",
+      "properties": {
+        "@id": "way/145471474",
+        "ele": "1335",
+        "name": "Bivacco Sellina",
+        "operator": "Regione Piemonte",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.3339318,
+              44.5023498
+            ],
+            [
+              7.33398,
+              44.5023272
+            ],
+            [
+              7.3340384,
+              44.5023907
+            ],
+            [
+              7.3339902,
+              44.5024133
+            ],
+            [
+              7.3339318,
+              44.5023498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/145819834",
+      "properties": {
+        "@id": "way/145819834",
+        "building": "yes",
+        "ele": "1812",
+        "name": "Rifugio Melezè",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiomeleze.it/",
+        "wikipedia": "it:Rifugio Melezè"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9812664,
+              44.5744628
+            ],
+            [
+              6.9813862,
+              44.5743579
+            ],
+            [
+              6.9816321,
+              44.5745005
+            ],
+            [
+              6.9815123,
+              44.5746054
+            ],
+            [
+              6.9812664,
+              44.5744628
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151773322",
+      "properties": {
+        "@id": "way/151773322",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Baita Gimont",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.7656481,
+              44.9215959
+            ],
+            [
+              6.7656614,
+              44.9213733
+            ],
+            [
+              6.7658049,
+              44.9213812
+            ],
+            [
+              6.7657971,
+              44.9214629
+            ],
+            [
+              6.765844,
+              44.9214654
+            ],
+            [
+              6.7658345,
+              44.9216049
+            ],
+            [
+              6.7656481,
+              44.9215959
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151773489",
+      "properties": {
+        "@id": "way/151773489",
+        "addr:city": "Coazze",
+        "building": "yes",
+        "ele": "1986",
+        "name": "Rifugio Alpe della Balma",
+        "operator": "CAI - Sezione Coazze",
+        "phone": "+39 011 9349336",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiobalma.it",
+        "wikipedia": "it:Rifugio Balma"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1903514,
+              45.0409049
+            ],
+            [
+              7.1902697,
+              45.0409547
+            ],
+            [
+              7.1901179,
+              45.0408303
+            ],
+            [
+              7.1901997,
+              45.0407805
+            ],
+            [
+              7.1903514,
+              45.0409049
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151775928",
+      "properties": {
+        "@id": "way/151775928",
+        "addr:city": "Bobbio Pellice",
+        "building": "yes",
+        "building:levels": "2",
+        "ele": "2377",
+        "name": "Rifugio Granero",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Battaglione Alpini Monte Granero"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0451749,
+              44.7282021
+            ],
+            [
+              7.0451806,
+              44.7281863
+            ],
+            [
+              7.045149,
+              44.7281805
+            ],
+            [
+              7.045174,
+              44.7281114
+            ],
+            [
+              7.0451954,
+              44.7281124
+            ],
+            [
+              7.0452505,
+              44.7279604
+            ],
+            [
+              7.045383,
+              44.7279847
+            ],
+            [
+              7.0453224,
+              44.7281519
+            ],
+            [
+              7.0452739,
+              44.728143
+            ],
+            [
+              7.0452476,
+              44.7282154
+            ],
+            [
+              7.0451749,
+              44.7282021
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151778547",
+      "properties": {
+        "@id": "way/151778547",
+        "addr:city": "Prali",
+        "building": "yes",
+        "ele": "2583",
+        "name": "Rifugio Lago Verde",
+        "name:fr": "Refuge Lago Verde",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Lago Verde"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0205262,
+              44.8282566
+            ],
+            [
+              7.0204008,
+              44.8281023
+            ],
+            [
+              7.0205474,
+              44.8280424
+            ],
+            [
+              7.0206048,
+              44.8281131
+            ],
+            [
+              7.0205414,
+              44.828139
+            ],
+            [
+              7.0206094,
+              44.8282226
+            ],
+            [
+              7.0205262,
+              44.8282566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151780187",
+      "properties": {
+        "@id": "way/151780187",
+        "addr:city": "Bobbio Pellice",
+        "building": "yes",
+        "ele": "1753",
+        "email": "info@rifugiobarbara.it",
+        "name": "Rifugio Barbara Lowrie",
+        "operator": "Cai Uget Val Pellice",
+        "phone": "+39 0121 930077",
+        "toilets": "yes",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiobarbara.it",
+        "wikipedia": "it:Rifugio Barbara Lowrie"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.081553,
+              44.7492468
+            ],
+            [
+              7.0813798,
+              44.7492244
+            ],
+            [
+              7.0814012,
+              44.7491409
+            ],
+            [
+              7.0813451,
+              44.7491336
+            ],
+            [
+              7.0813802,
+              44.7489972
+            ],
+            [
+              7.0814232,
+              44.7490028
+            ],
+            [
+              7.0814262,
+              44.7489912
+            ],
+            [
+              7.0816125,
+              44.7490153
+            ],
+            [
+              7.081553,
+              44.7492468
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151781152",
+      "properties": {
+        "@id": "way/151781152",
+        "building": "yes",
+        "email": "info@rifugioguidorey.it",
+        "name": "Rifugio Guido Rey",
+        "phone": "+39 011 0202252",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugioguidorey.it/",
+        "wikipedia": "it:Rifugio Guido Rey"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.7562282,
+              45.0274179
+            ],
+            [
+              6.7560691,
+              45.0273685
+            ],
+            [
+              6.756154,
+              45.0272222
+            ],
+            [
+              6.7562645,
+              45.027255
+            ],
+            [
+              6.756268,
+              45.0272936
+            ],
+            [
+              6.7562737,
+              45.0273344
+            ],
+            [
+              6.7562282,
+              45.0274179
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151782165",
+      "properties": {
+        "@id": "way/151782165",
+        "addr:city": "Bardonecchia",
+        "building": "yes",
+        "ele": "2165",
+        "is_in": "Piemont",
+        "name": "Rifugio Scarfiotti",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Camillo Scarfiotti"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.8019561,
+              45.1325667
+            ],
+            [
+              6.8018317,
+              45.1326097
+            ],
+            [
+              6.8017557,
+              45.1325003
+            ],
+            [
+              6.8018801,
+              45.1324573
+            ],
+            [
+              6.8019561,
+              45.1325667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151782419",
+      "properties": {
+        "@id": "way/151782419",
+        "addr:city": "Crissolo",
+        "building": "yes",
+        "ele": "2640",
+        "name": "Rifugio Quintino Sella",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiosella.it/",
+        "wikipedia": "it:Rifugio Quintino Sella al Monviso"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1096039,
+              44.6657569
+            ],
+            [
+              7.1096569,
+              44.6655277
+            ],
+            [
+              7.1098187,
+              44.6655444
+            ],
+            [
+              7.1098095,
+              44.6655879
+            ],
+            [
+              7.1098456,
+              44.6655946
+            ],
+            [
+              7.1097986,
+              44.6657795
+            ],
+            [
+              7.1096039,
+              44.6657569
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151784660",
+      "properties": {
+        "@id": "way/151784660",
+        "building": "yes",
+        "ele": "2400",
+        "name": "Rifugio Helios",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0424546,
+              44.6367809
+            ],
+            [
+              7.0424464,
+              44.6366171
+            ],
+            [
+              7.0427149,
+              44.6366026
+            ],
+            [
+              7.0427301,
+              44.636779
+            ],
+            [
+              7.0424546,
+              44.6367809
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151784847",
+      "properties": {
+        "@id": "way/151784847",
+        "addr:city": "Pontechianale",
+        "building": "yes",
+        "ele": "1743",
+        "name": "Rifugio Savigliano",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Savigliano"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.024503,
+              44.6270078
+            ],
+            [
+              7.0243725,
+              44.627077
+            ],
+            [
+              7.0242105,
+              44.6269223
+            ],
+            [
+              7.024341,
+              44.6268531
+            ],
+            [
+              7.024503,
+              44.6270078
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151944018",
+      "properties": {
+        "@id": "way/151944018",
+        "building": "yes",
+        "ele": "2616",
+        "name": "Rifugio Luigi Cibrario",
+        "operator": "CAI",
+        "phone": "+39 0123 83737",
+        "phone_1": "+39 011 2341770",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Luigi Cibrario"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1470549,
+              45.2468444
+            ],
+            [
+              7.1468999,
+              45.2468365
+            ],
+            [
+              7.146904,
+              45.2467971
+            ],
+            [
+              7.1470755,
+              45.2468059
+            ],
+            [
+              7.1470734,
+              45.2468257
+            ],
+            [
+              7.1472919,
+              45.2468369
+            ],
+            [
+              7.1472834,
+              45.2469193
+            ],
+            [
+              7.1470484,
+              45.2469072
+            ],
+            [
+              7.1470549,
+              45.2468444
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151947378",
+      "properties": {
+        "@id": "way/151947378",
+        "building": "yes",
+        "ele": "1050",
+        "name": "Rifugio Bruno Piazza",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.7398747,
+              45.5135855
+            ],
+            [
+              7.7398135,
+              45.5136541
+            ],
+            [
+              7.7395885,
+              45.5135555
+            ],
+            [
+              7.7396497,
+              45.5134869
+            ],
+            [
+              7.7398747,
+              45.5135855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151983742",
+      "properties": {
+        "@id": "way/151983742",
+        "addr:city": "Usseglio",
+        "building": "yes",
+        "ele": "1805",
+        "name": "Rifugio Vulpot",
+        "operator": "priv.",
+        "phone": "+39 0123 83771",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiovulpot.it",
+        "wikipedia": "it:Rifugio Vulpot"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1456913,
+              45.2078927
+            ],
+            [
+              7.1456985,
+              45.2077946
+            ],
+            [
+              7.1461734,
+              45.2078117
+            ],
+            [
+              7.1461663,
+              45.2079098
+            ],
+            [
+              7.1456913,
+              45.2078927
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151999944",
+      "properties": {
+        "@id": "way/151999944",
+        "ele": "2039",
+        "name": "Rifugio alpe il laghetto",
+        "note": "26 posti letto",
+        "operator": "CAI Somma Lombarda, Sottosezione di Arsago Seprio",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.1469035,
+              46.128161
+            ],
+            [
+              8.1468564,
+              46.1280821
+            ],
+            [
+              8.14712,
+              46.1280064
+            ],
+            [
+              8.1471672,
+              46.1280852
+            ],
+            [
+              8.1469035,
+              46.128161
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152000872",
+      "properties": {
+        "@id": "way/152000872",
+        "name": "Rifugio Enrico Castiglioni",
+        "phone": "+39 0324 618126 / +39 0324 62101",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Castiglioni"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.2622472,
+              46.320612
+            ],
+            [
+              8.2622454,
+              46.3205308
+            ],
+            [
+              8.2624378,
+              46.3205288
+            ],
+            [
+              8.2624396,
+              46.32061
+            ],
+            [
+              8.2622472,
+              46.320612
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152002393",
+      "properties": {
+        "@id": "way/152002393",
+        "building": "yes",
+        "name": "Rifugio 3A",
+        "operator": "Operazione Mato Grosso",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio 3A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.335173,
+              46.4239135
+            ],
+            [
+              8.3349102,
+              46.423753
+            ],
+            [
+              8.3350166,
+              46.4236702
+            ],
+            [
+              8.3352794,
+              46.4238306
+            ],
+            [
+              8.335173,
+              46.4239135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152002397",
+      "properties": {
+        "@id": "way/152002397",
+        "building": "yes",
+        "name": "Rifugio Claudio e Bruno",
+        "operator": "Operazione Mato Grosso",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Claudio e Bruno"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.3245689,
+              46.4148527
+            ],
+            [
+              8.3245984,
+              46.4147857
+            ],
+            [
+              8.3247737,
+              46.4148224
+            ],
+            [
+              8.3248119,
+              46.4147357
+            ],
+            [
+              8.3249443,
+              46.4147634
+            ],
+            [
+              8.3248766,
+              46.4149172
+            ],
+            [
+              8.3245689,
+              46.4148527
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152004559",
+      "properties": {
+        "@id": "way/152004559",
+        "building": "yes",
+        "ele": "2068",
+        "name": "Rifugio Miryam",
+        "operator": "ACLI Nord-Milano",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Miryam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.3940425,
+              46.3783639
+            ],
+            [
+              8.3938716,
+              46.3783534
+            ],
+            [
+              8.3938936,
+              46.378184
+            ],
+            [
+              8.3940644,
+              46.3781945
+            ],
+            [
+              8.3940425,
+              46.3783639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152004899",
+      "properties": {
+        "@id": "way/152004899",
+        "building": "yes",
+        "ele": "2157",
+        "email": "info@rifugiomarialuisa.it",
+        "name": "Rifugio Maria Luisa",
+        "operator": "CAI Sezione di Busto Arsizio",
+        "phone": "+39 0324 63086",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiomarialuisa.it",
+        "wikipedia": "it:Rifugio Maria Luisa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.427911,
+              46.4348967
+            ],
+            [
+              8.4277882,
+              46.4348447
+            ],
+            [
+              8.4278653,
+              46.4347583
+            ],
+            [
+              8.427747,
+              46.4347082
+            ],
+            [
+              8.4278247,
+              46.434621
+            ],
+            [
+              8.4279522,
+              46.434675
+            ],
+            [
+              8.4280997,
+              46.4345094
+            ],
+            [
+              8.4282133,
+              46.4345574
+            ],
+            [
+              8.427911,
+              46.4348967
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152004978",
+      "properties": {
+        "@id": "way/152004978",
+        "building": "yes",
+        "ele": "1530",
+        "name": "Rifugio Pian Cavallone",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.5394985,
+              46.0133882
+            ],
+            [
+              8.5393852,
+              46.0134697
+            ],
+            [
+              8.5391958,
+              46.0133426
+            ],
+            [
+              8.5393092,
+              46.0132612
+            ],
+            [
+              8.5394985,
+              46.0133882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152008384",
+      "properties": {
+        "@id": "way/152008384",
+        "ele": "1970",
+        "name": "Rifugio Piero Garelli",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Piero Garelli"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6878647,
+              44.1888836
+            ],
+            [
+              7.687474,
+              44.1887939
+            ],
+            [
+              7.6875207,
+              44.1886894
+            ],
+            [
+              7.6879114,
+              44.1887791
+            ],
+            [
+              7.6878647,
+              44.1888836
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152008386",
+      "properties": {
+        "@id": "way/152008386",
+        "addr:city": "Roccaforte Mondovì",
+        "building": "yes",
+        "ele": "1761",
+        "name": "Rifugio Mondovì - Havis De Giorgio",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Havis De Giorgio - Mondovì"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.7318336,
+              44.1915994
+            ],
+            [
+              7.7316843,
+              44.1916301
+            ],
+            [
+              7.731612,
+              44.1914491
+            ],
+            [
+              7.7317613,
+              44.1914184
+            ],
+            [
+              7.7318336,
+              44.1915994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152008782",
+      "properties": {
+        "@id": "way/152008782",
+        "building": "yes",
+        "name": "Rifugio Mongioie",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugio-mongioie.com/",
+        "wikipedia": "it:Rifugio Mongioie"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.7753578,
+              44.1521755
+            ],
+            [
+              7.7753915,
+              44.1520707
+            ],
+            [
+              7.7755531,
+              44.1520974
+            ],
+            [
+              7.775558,
+              44.1520823
+            ],
+            [
+              7.7756736,
+              44.1521015
+            ],
+            [
+              7.7756418,
+              44.1522003
+            ],
+            [
+              7.7755236,
+              44.1521807
+            ],
+            [
+              7.7755168,
+              44.1522018
+            ],
+            [
+              7.7753578,
+              44.1521755
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152009066",
+      "properties": {
+        "@id": "way/152009066",
+        "addr:city": "Valdieri",
+        "building": "yes",
+        "ele": "1890",
+        "name": "Rifugio Dante Livio Bianco",
+        "operator": "CAI Cuneo",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugioliviobianco.com/",
+        "wikipedia": "it:Rifugio Dante Livio Bianco"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.2479801,
+              44.2462405
+            ],
+            [
+              7.2478893,
+              44.2462143
+            ],
+            [
+              7.2479671,
+              44.2460761
+            ],
+            [
+              7.2480579,
+              44.2461024
+            ],
+            [
+              7.2479801,
+              44.2462405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152010650",
+      "properties": {
+        "@id": "way/152010650",
+        "building": "yes",
+        "ele": "2351",
+        "name": "Rifugio Morelli-Buzzi",
+        "operator": "CAI Cuneo",
+        "phone": "+39 0171 97394",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiomorellibuzzi.it/",
+        "wikipedia": "it:Rifugio Morelli-Buzzi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.3132445,
+              44.1913682
+            ],
+            [
+              7.3132395,
+              44.1912962
+            ],
+            [
+              7.313412,
+              44.1912904
+            ],
+            [
+              7.3134157,
+              44.1913645
+            ],
+            [
+              7.3132445,
+              44.1913682
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152010654",
+      "properties": {
+        "@id": "way/152010654",
+        "addr:city": "Valdieri",
+        "building": "yes",
+        "ele": "2453",
+        "name": "Rifugio Bozano",
+        "operator": "CAI \"Ligure\" - Genova",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiobozano.it/",
+        "wikipedia": "it:Rifugio Lorenzo Bozano"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.2938819,
+              44.1853868
+            ],
+            [
+              7.2938117,
+              44.18544
+            ],
+            [
+              7.2936746,
+              44.1853471
+            ],
+            [
+              7.2937447,
+              44.1852939
+            ],
+            [
+              7.2938819,
+              44.1853868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152011740",
+      "properties": {
+        "@id": "way/152011740",
+        "addr:city": "Vinadio",
+        "building": "yes",
+        "ele": "1900",
+        "name": "Rifugio De Alexandris - Foches al Laus",
+        "phone": "+39 338 8727984",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio De Alexandris-Foches"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0465054,
+              44.2507278
+            ],
+            [
+              7.0463915,
+              44.2507068
+            ],
+            [
+              7.0464436,
+              44.2505855
+            ],
+            [
+              7.0465494,
+              44.2506054
+            ],
+            [
+              7.0465054,
+              44.2507278
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152013250",
+      "properties": {
+        "@id": "way/152013250",
+        "building": "yes",
+        "name": "Rifugio Pagarì",
+        "phone": "+39 0171 978398",
+        "tourism": "alpine_hut",
+        "url": "www.rifugiopagari.com",
+        "wikipedia": "it:Rifugio Pagarì"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.4066006,
+              44.1238851
+            ],
+            [
+              7.4065671,
+              44.1239654
+            ],
+            [
+              7.4063034,
+              44.1239086
+            ],
+            [
+              7.4063228,
+              44.123862
+            ],
+            [
+              7.4065095,
+              44.1239022
+            ],
+            [
+              7.4065235,
+              44.1238686
+            ],
+            [
+              7.4066006,
+              44.1238851
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152013782",
+      "properties": {
+        "@id": "way/152013782",
+        "addr:city": "Valdieri",
+        "building": "yes",
+        "ele": "2430",
+        "name": "Rifugio Remondino",
+        "operator": "CAI Cuneo",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugioremondino.it/",
+        "wikipedia": "it:Rifugio Remondino"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.2957299,
+              44.1634699
+            ],
+            [
+              7.2956445,
+              44.1634507
+            ],
+            [
+              7.2956836,
+              44.1633611
+            ],
+            [
+              7.295769,
+              44.1633803
+            ],
+            [
+              7.2957299,
+              44.1634699
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152014090",
+      "properties": {
+        "@id": "way/152014090",
+        "building": "yes",
+        "name": "Rifugio Malinvern",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiomalinvern.it",
+        "wikipedia": "it:Rifugio Malinvern"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1844295,
+              44.2203653
+            ],
+            [
+              7.1843223,
+              44.2203422
+            ],
+            [
+              7.1843744,
+              44.2202176
+            ],
+            [
+              7.1844627,
+              44.2202365
+            ],
+            [
+              7.1844713,
+              44.2202161
+            ],
+            [
+              7.1845196,
+              44.2202265
+            ],
+            [
+              7.1844821,
+              44.2203161
+            ],
+            [
+              7.1844527,
+              44.2203097
+            ],
+            [
+              7.1844295,
+              44.2203653
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152014504",
+      "properties": {
+        "@id": "way/152014504",
+        "building": "yes",
+        "ele": "2099",
+        "name": "Rifugio Migliorero",
+        "tourism": "alpine_hut",
+        "url": "http://www.caifossano.it/index.php?option=com_content&view=article&id=50&Itemid=41",
+        "wikipedia": "it:Rifugio Migliorero"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0193209,
+              44.2828993
+            ],
+            [
+              7.0192518,
+              44.282943
+            ],
+            [
+              7.0192084,
+              44.2829079
+            ],
+            [
+              7.0191079,
+              44.2829715
+            ],
+            [
+              7.0190128,
+              44.2828945
+            ],
+            [
+              7.0191824,
+              44.2827871
+            ],
+            [
+              7.0193209,
+              44.2828993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152015530",
+      "properties": {
+        "@id": "way/152015530",
+        "addr:city": "Valdieri",
+        "building": "yes",
+        "ele": "2386",
+        "name": "Rifugio Questa",
+        "operator": "CAI \"Ligure\" - Genova",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugioquesta.it/",
+        "wikipedia": "it:Rifugio Questa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.2164677,
+              44.1828098
+            ],
+            [
+              7.2164429,
+              44.1828861
+            ],
+            [
+              7.2162812,
+              44.1828663
+            ],
+            [
+              7.2162987,
+              44.18279
+            ],
+            [
+              7.2164677,
+              44.1828098
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152015909",
+      "properties": {
+        "@id": "way/152015909",
+        "addr:city": "Valdieri",
+        "building": "yes",
+        "name": "Rifugio Regina Elena",
+        "operator": "ANA Genova",
+        "phone": "+39 0171 97559",
+        "tourism": "alpine_hut",
+        "website": "http://www.alpinigenova.org/rifugio.php",
+        "wikipedia": "it:Rifugio Regina Elena"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.2762097,
+              44.1585783
+            ],
+            [
+              7.2761874,
+              44.1586468
+            ],
+            [
+              7.2760684,
+              44.1586269
+            ],
+            [
+              7.2760907,
+              44.1585584
+            ],
+            [
+              7.2762097,
+              44.1585783
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152017549",
+      "properties": {
+        "@id": "way/152017549",
+        "ele": "2061",
+        "name": "Rifugio Andolla",
+        "operator": "Club Alpino Italiano Sezione di Villadossola",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.0706579,
+              46.095094
+            ],
+            [
+              8.0705558,
+              46.0950708
+            ],
+            [
+              8.0704757,
+              46.0950526
+            ],
+            [
+              8.0705384,
+              46.0949199
+            ],
+            [
+              8.0707206,
+              46.0949613
+            ],
+            [
+              8.0706579,
+              46.095094
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152020673",
+      "properties": {
+        "@id": "way/152020673",
+        "addr:city": "Macugnaga",
+        "building": "yes",
+        "capacity": "36",
+        "contact:phone": "+39 0324 65313",
+        "contact:website": "http://www.rifugiozamboni.com/",
+        "ele": "2065",
+        "name": "Rifugio Zamboni Zappa",
+        "operator": "Club Alpino Italiano Milano",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Zamboni-Zappa",
+        "winter_room": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9178015,
+              45.9531732
+            ],
+            [
+              7.9178651,
+              45.9530504
+            ],
+            [
+              7.9180411,
+              45.9530944
+            ],
+            [
+              7.9180296,
+              45.9531157
+            ],
+            [
+              7.9179897,
+              45.9531892
+            ],
+            [
+              7.9179775,
+              45.9532172
+            ],
+            [
+              7.9178015,
+              45.9531732
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152022713",
+      "properties": {
+        "@id": "way/152022713",
+        "addr:city": "Piedicavallo",
+        "building": "yes",
+        "ele": "2150",
+        "name": "Rifugio Alfredo Rivetti",
+        "operator": "CAI - Club Alpino Italiano",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Alfredo Rivetti"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9357425,
+              45.7192342
+            ],
+            [
+              7.9356519,
+              45.7192081
+            ],
+            [
+              7.9357155,
+              45.7191005
+            ],
+            [
+              7.9358061,
+              45.7191265
+            ],
+            [
+              7.9357425,
+              45.7192342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152034862",
+      "properties": {
+        "@id": "way/152034862",
+        "amenity": "shelter",
+        "building": "yes",
+        "ele": "2760m",
+        "name": "Bivacco Bertoglio",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Bivacco Bertoglio"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0933335,
+              44.6378483
+            ],
+            [
+              7.0933335,
+              44.6378194
+            ],
+            [
+              7.0933836,
+              44.6378194
+            ],
+            [
+              7.0933836,
+              44.6378483
+            ],
+            [
+              7.0933335,
+              44.6378483
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155340443",
+      "properties": {
+        "@id": "way/155340443",
+        "addr:city": "Argentera",
+        "building": "yes",
+        "ele": "1887",
+        "name": "Rifugio Becchi Rossi",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiobecchirossi.com/",
+        "wikipedia": "it:Rifugio Becchi Rossi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9551145,
+              44.3586876
+            ],
+            [
+              6.9550175,
+              44.3587376
+            ],
+            [
+              6.9549136,
+              44.3586344
+            ],
+            [
+              6.9550106,
+              44.3585845
+            ],
+            [
+              6.9551145,
+              44.3586876
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/158548071",
+      "properties": {
+        "@id": "way/158548071",
+        "email": "parco.orsiera@ruparpiemonte.it",
+        "name": "Foresteria della Certosa",
+        "phone": "+39 0122 47064",
+        "phone:2": "+39 0122 640069",
+        "source": "Parco Orsiera Rocciavrè",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1905404,
+              45.0955559
+            ],
+            [
+              7.1904275,
+              45.0951172
+            ],
+            [
+              7.1906419,
+              45.0950897
+            ],
+            [
+              7.1906273,
+              45.0950332
+            ],
+            [
+              7.1906788,
+              45.0950266
+            ],
+            [
+              7.1907135,
+              45.0951614
+            ],
+            [
+              7.1905818,
+              45.0951783
+            ],
+            [
+              7.1906746,
+              45.0955386
+            ],
+            [
+              7.1905404,
+              45.0955559
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/161753123",
+      "properties": {
+        "@id": "way/161753123",
+        "building": "yes",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "Rifugio Galleria di Rosazza",
+        "smoking": "no",
+        "tourism": "alpine_hut",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9885733,
+              45.6418389
+            ],
+            [
+              7.9886944,
+              45.6417771
+            ],
+            [
+              7.988772,
+              45.6417855
+            ],
+            [
+              7.9887351,
+              45.6419305
+            ],
+            [
+              7.9885733,
+              45.6418389
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/162586012",
+      "properties": {
+        "@id": "way/162586012",
+        "building": "yes",
+        "ele": "1326",
+        "name": "Rifugio Santa Margherita",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.24432,
+              44.4620985
+            ],
+            [
+              7.2443187,
+              44.4620107
+            ],
+            [
+              7.244457,
+              44.4620108
+            ],
+            [
+              7.244454,
+              44.462095
+            ],
+            [
+              7.24432,
+              44.4620985
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/164512486",
+      "properties": {
+        "@id": "way/164512486",
+        "ele": "1110",
+        "name": "Rifugio Gilodi-Cà Mea",
+        "operator": "CAI Borgosesia",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.2261273,
+              45.7538282
+            ],
+            [
+              8.2260516,
+              45.753647
+            ],
+            [
+              8.22616,
+              45.7536249
+            ],
+            [
+              8.2262098,
+              45.753744
+            ],
+            [
+              8.226274,
+              45.753731
+            ],
+            [
+              8.2262999,
+              45.753793
+            ],
+            [
+              8.2261273,
+              45.7538282
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/165263938",
+      "properties": {
+        "@id": "way/165263938",
+        "ele": "1883",
+        "name": "Rifugio Karfen",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.302842,
+              45.2959029
+            ],
+            [
+              7.302995,
+              45.2958372
+            ],
+            [
+              7.303083,
+              45.2959385
+            ],
+            [
+              7.30293,
+              45.2960043
+            ],
+            [
+              7.302842,
+              45.2959029
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/169044717",
+      "properties": {
+        "@id": "way/169044717",
+        "addr:city": "Pragelato",
+        "building": "yes",
+        "ele": "1915",
+        "name": "Rifugio Troncea",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Troncea"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.952246,
+              44.9530678
+            ],
+            [
+              6.9523004,
+              44.9529505
+            ],
+            [
+              6.9523795,
+              44.9529593
+            ],
+            [
+              6.9525822,
+              44.9530468
+            ],
+            [
+              6.9525105,
+              44.9531413
+            ],
+            [
+              6.952246,
+              44.9530678
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/169492030",
+      "properties": {
+        "@id": "way/169492030",
+        "addr:city": "Acceglio",
+        "building": "yes",
+        "description": "Rifugio chiuso, richiedere le chiavi",
+        "ele": "2840",
+        "name": "Rifugio Carmagnola",
+        "operator": "CAI sezione Carmagnola",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Capanna sociale Carmagnola"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9451404,
+              44.5486722
+            ],
+            [
+              6.9451903,
+              44.5485963
+            ],
+            [
+              6.9457153,
+              44.5487715
+            ],
+            [
+              6.9456654,
+              44.5488474
+            ],
+            [
+              6.9451404,
+              44.5486722
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/172458579",
+      "properties": {
+        "@id": "way/172458579",
+        "building": "yes",
+        "ele": "1733",
+        "internet_access": "wlan",
+        "name": "Rifugio Grongios Martre",
+        "tourism": "alpine_hut",
+        "website": "www.grongiosmartre.com"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0613305,
+              44.612073
+            ],
+            [
+              7.061432,
+              44.6119943
+            ],
+            [
+              7.0615705,
+              44.6120849
+            ],
+            [
+              7.0614691,
+              44.6121635
+            ],
+            [
+              7.0613305,
+              44.612073
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/172668489",
+      "properties": {
+        "@id": "way/172668489",
+        "building": "yes",
+        "ele": "1321",
+        "name": "Rifugio Alpe Pianetti",
+        "operator": "Associazione Nazionale Alpini Sezione di Biella Gruppo di Graglia",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9172755,
+              45.577783
+            ],
+            [
+              7.9172384,
+              45.5776678
+            ],
+            [
+              7.9173482,
+              45.5776505
+            ],
+            [
+              7.9173852,
+              45.5777658
+            ],
+            [
+              7.9172755,
+              45.577783
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/173157125",
+      "properties": {
+        "@id": "way/173157125",
+        "building": "yes",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4036542,
+              46.4241031
+            ],
+            [
+              8.4037237,
+              46.4238812
+            ],
+            [
+              8.4038593,
+              46.4239014
+            ],
+            [
+              8.4037899,
+              46.4241233
+            ],
+            [
+              8.4036542,
+              46.4241031
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/173560113",
+      "properties": {
+        "@id": "way/173560113",
+        "addr:city": "Pontechianale",
+        "building": "yes",
+        "ele": "2017",
+        "name": "Rifugio Bagnour",
+        "operator": "Livio Martino e Elisa Tosco",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiobagnour.it",
+        "wikipedia": "it:Rifugio Bagnour"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.076231,
+              44.613484
+            ],
+            [
+              7.0762615,
+              44.6133934
+            ],
+            [
+              7.0764778,
+              44.6134303
+            ],
+            [
+              7.0764474,
+              44.6135209
+            ],
+            [
+              7.076231,
+              44.613484
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/177002048",
+      "properties": {
+        "@id": "way/177002048",
+        "building": "yes",
+        "capacity": "50",
+        "contact:phone": "+39 015 2562405",
+        "contact:website": "http://www.caibiella.it/rifugio_coda_.html",
+        "ele": "2280",
+        "name": "Rifugio Delfo e Agostino Coda",
+        "operator": "Club Alpino Italiano Sezione di Biella",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Agostino e Delfo Coda",
+        "winter_room": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9067064,
+              45.6224563
+            ],
+            [
+              7.9063666,
+              45.6224553
+            ],
+            [
+              7.9063666,
+              45.6223985
+            ],
+            [
+              7.9064925,
+              45.6223951
+            ],
+            [
+              7.9064937,
+              45.6223706
+            ],
+            [
+              7.9067072,
+              45.6223705
+            ],
+            [
+              7.9067064,
+              45.6224563
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/179013239",
+      "properties": {
+        "@id": "way/179013239",
+        "building": "yes",
+        "ele": "1032",
+        "name": "Rifugio Pian delle Gorre",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6604557,
+              44.2140732
+            ],
+            [
+              7.6604448,
+              44.2139171
+            ],
+            [
+              7.6605769,
+              44.2139162
+            ],
+            [
+              7.6605872,
+              44.2140698
+            ],
+            [
+              7.6604557,
+              44.2140732
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/181006888",
+      "properties": {
+        "@id": "way/181006888",
+        "addr:city": "Pontechianale",
+        "building": "yes",
+        "ele": "1580",
+        "name": "Rifugio Alevè",
+        "operator": "La Reino Snc",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugioaleve.it/",
+        "wikipedia": "it:Rifugio Alevè"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0530506,
+              44.6133848
+            ],
+            [
+              7.0531236,
+              44.6132545
+            ],
+            [
+              7.0530648,
+              44.6132378
+            ],
+            [
+              7.0531161,
+              44.6131463
+            ],
+            [
+              7.0531916,
+              44.6131678
+            ],
+            [
+              7.0532761,
+              44.6130171
+            ],
+            [
+              7.0533745,
+              44.613045
+            ],
+            [
+              7.0532846,
+              44.6132053
+            ],
+            [
+              7.0533432,
+              44.613222
+            ],
+            [
+              7.0532962,
+              44.6133059
+            ],
+            [
+              7.0532715,
+              44.6132989
+            ],
+            [
+              7.0531996,
+              44.6134271
+            ],
+            [
+              7.0530506,
+              44.6133848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/181008971",
+      "properties": {
+        "@id": "way/181008971",
+        "building": "yes",
+        "ele": "2268",
+        "name": "Rifugio Alpetto",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Alpetto"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1263494,
+              44.6589429
+            ],
+            [
+              7.1264215,
+              44.6588195
+            ],
+            [
+              7.1265235,
+              44.6588496
+            ],
+            [
+              7.1264514,
+              44.658973
+            ],
+            [
+              7.1263494,
+              44.6589429
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/185982920",
+      "properties": {
+        "@id": "way/185982920",
+        "name": "Capanna Mautino",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.7894345,
+              44.902839
+            ],
+            [
+              6.7894355,
+              44.9027529
+            ],
+            [
+              6.7894974,
+              44.9027532
+            ],
+            [
+              6.7894977,
+              44.9027301
+            ],
+            [
+              6.7896675,
+              44.902731
+            ],
+            [
+              6.7896665,
+              44.9028213
+            ],
+            [
+              6.7896058,
+              44.902821
+            ],
+            [
+              6.7896056,
+              44.90284
+            ],
+            [
+              6.7894345,
+              44.902839
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/190723237",
+      "properties": {
+        "@id": "way/190723237",
+        "addr:city": "Angrogna",
+        "addr:country": "IT",
+        "addr:housenumber": "266",
+        "addr:postcode": "10060",
+        "addr:street": "Vaccera",
+        "building": "yes",
+        "ele": "1400",
+        "email": "rifugiojumarre@dag.it",
+        "name": "Rifugio Jumarre",
+        "phone": "+39 0121 944233; +39 333 6386865",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiojumarre.it"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1975159,
+              44.8746296
+            ],
+            [
+              7.1972526,
+              44.8746149
+            ],
+            [
+              7.1972555,
+              44.874507
+            ],
+            [
+              7.1975322,
+              44.8745164
+            ],
+            [
+              7.1975159,
+              44.8746296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/193086403",
+      "properties": {
+        "@id": "way/193086403",
+        "building": "residential",
+        "ele": "1220",
+        "email": "rifbarfe@tiscali.it",
+        "name": "Agriturismo Rifugio Barfè",
+        "phone": "+39 0121 932762",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1919917,
+              44.8508564
+            ],
+            [
+              7.191959,
+              44.8508018
+            ],
+            [
+              7.1921205,
+              44.850765
+            ],
+            [
+              7.1921532,
+              44.8508223
+            ],
+            [
+              7.1919917,
+              44.8508564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/198366475",
+      "properties": {
+        "@id": "way/198366475",
+        "building": "yes",
+        "name": "Rifugio Daviso",
+        "operator": "CAI sezione di Venaria Reale / Tel. 011-4522898",
+        "tourism": "alpine_hut",
+        "url": "http://www.caivenaria.it/index.php?option=com_content&view=article&id=35&Itemid=53",
+        "wikipedia": "it:Rifugio Paolo Daviso"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1834486,
+              45.375487
+            ],
+            [
+              7.1837703,
+              45.3755369
+            ],
+            [
+              7.183747,
+              45.375611
+            ],
+            [
+              7.1834253,
+              45.3755611
+            ],
+            [
+              7.1834486,
+              45.375487
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/199889727",
+      "properties": {
+        "@id": "way/199889727",
+        "building": "yes",
+        "contact:email": "sap.rifugio@tiscali.it",
+        "contact:phone": "+39 339 3231128",
+        "contact:website": "http://it-it.facebook.com/pages/RIFUGIO-SAP/93535874718",
+        "cuisine": "italian",
+        "name": "Rifugio Alpino Ai Sap",
+        "toilets": "yes",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1635443,
+              44.8636236
+            ],
+            [
+              7.163514,
+              44.8635318
+            ],
+            [
+              7.1636589,
+              44.8635052
+            ],
+            [
+              7.1636896,
+              44.8635957
+            ],
+            [
+              7.1637415,
+              44.8635887
+            ],
+            [
+              7.1637539,
+              44.8636211
+            ],
+            [
+              7.1636104,
+              44.8636439
+            ],
+            [
+              7.163602,
+              44.8636162
+            ],
+            [
+              7.1635443,
+              44.8636236
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/200296327",
+      "properties": {
+        "@id": "way/200296327",
+        "building": "yes",
+        "ele": "2630",
+        "name": "Bivacco Soardi",
+        "name:fr": "Refuge Nino Soardi",
+        "operator": "CAI",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0200774,
+              44.8180014
+            ],
+            [
+              7.0200685,
+              44.8178933
+            ],
+            [
+              7.020158,
+              44.8178896
+            ],
+            [
+              7.0201669,
+              44.8179977
+            ],
+            [
+              7.0200774,
+              44.8180014
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/201625351",
+      "properties": {
+        "@id": "way/201625351",
+        "amenity": "shelter",
+        "building": "yes",
+        "ele": "2217",
+        "name": "Rifugio Pontese",
+        "operator": "Clup Alpinistico Pontese",
+        "tourism": "alpine_hut",
+        "url": "http://web.tiscali.it/rifugio.pontese/",
+        "wikipedia": "it:Rifugio Pontese"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.368936,
+              45.4960137
+            ],
+            [
+              7.3689473,
+              45.4959427
+            ],
+            [
+              7.3689899,
+              45.4959506
+            ],
+            [
+              7.3690224,
+              45.4958523
+            ],
+            [
+              7.36912,
+              45.4958681
+            ],
+            [
+              7.3690737,
+              45.4960286
+            ],
+            [
+              7.368936,
+              45.4960137
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/216479593",
+      "properties": {
+        "@id": "way/216479593",
+        "addr:city": "Rima",
+        "capacity": "11",
+        "contact:email": "rifugiobrusa@gmail.com",
+        "contact:phone": "+39 0163 95000",
+        "contact:website": "https://www.facebook.com/rifugiobrusa.rima",
+        "ele": "1350",
+        "name": "Rifugio Brusà",
+        "note": "piccolo rifugio di tipo escursionistico  / B&B",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.0126254,
+              45.8804556
+            ],
+            [
+              8.0127325,
+              45.8803981
+            ],
+            [
+              8.0128164,
+              45.8804738
+            ],
+            [
+              8.0127092,
+              45.8805313
+            ],
+            [
+              8.0126254,
+              45.8804556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/219019035",
+      "properties": {
+        "@id": "way/219019035",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.2964403,
+              45.6642324
+            ],
+            [
+              8.2963596,
+              45.664197
+            ],
+            [
+              8.2964294,
+              45.6641193
+            ],
+            [
+              8.296489,
+              45.6641454
+            ],
+            [
+              8.2964391,
+              45.6642009
+            ],
+            [
+              8.2964603,
+              45.6642101
+            ],
+            [
+              8.2964403,
+              45.6642324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/232299042",
+      "properties": {
+        "@id": "way/232299042",
+        "ele": "2316",
+        "name": "Capanna Morgantini",
+        "source": "Bing Sat",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6353605,
+              44.1772546
+            ],
+            [
+              7.6354663,
+              44.1772625
+            ],
+            [
+              7.635457,
+              44.1773267
+            ],
+            [
+              7.6353512,
+              44.1773188
+            ],
+            [
+              7.6353605,
+              44.1772546
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/235854622",
+      "properties": {
+        "@id": "way/235854622",
+        "building": "yes",
+        "ele": "1450",
+        "name": "Rifugio Pluni",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.5742961,
+              46.1179827
+            ],
+            [
+              8.5742389,
+              46.1180093
+            ],
+            [
+              8.5741881,
+              46.1179491
+            ],
+            [
+              8.5742387,
+              46.1179257
+            ],
+            [
+              8.5742961,
+              46.1179827
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/241122914",
+      "properties": {
+        "@id": "way/241122914",
+        "name": "Rifugio Alpe della Colma",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.1931787,
+              46.0342042
+            ],
+            [
+              8.1933003,
+              46.034152
+            ],
+            [
+              8.1933616,
+              46.0342208
+            ],
+            [
+              8.19324,
+              46.0342731
+            ],
+            [
+              8.1931787,
+              46.0342042
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/253661874",
+      "properties": {
+        "@id": "way/253661874",
+        "addr:city": "Venaus",
+        "building": "yes",
+        "ele": "2578",
+        "name": "Rifugio Avanzà",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Avanzà"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9522455,
+              45.1708789
+            ],
+            [
+              6.9522395,
+              45.1707681
+            ],
+            [
+              6.9524119,
+              45.1707634
+            ],
+            [
+              6.9524179,
+              45.1708742
+            ],
+            [
+              6.9522455,
+              45.1708789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/255607847",
+      "properties": {
+        "@id": "way/255607847",
+        "building": "yes",
+        "ele": "1931",
+        "hiking": "yes",
+        "name": "Posto tappa Bivacco Bergerie dell'Orsiera",
+        "operator": "non gestito chiavi bar di Mattie",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0975955,
+              45.0770842
+            ],
+            [
+              7.0976555,
+              45.0770211
+            ],
+            [
+              7.0978385,
+              45.0771079
+            ],
+            [
+              7.0977784,
+              45.077171
+            ],
+            [
+              7.0975955,
+              45.0770842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/255607852",
+      "properties": {
+        "@id": "way/255607852",
+        "name": "Posto tappa Alpe Toglie",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1152342,
+              45.0907341
+            ],
+            [
+              7.1153098,
+              45.0906649
+            ],
+            [
+              7.1160877,
+              45.0910892
+            ],
+            [
+              7.1159661,
+              45.0912002
+            ],
+            [
+              7.1158241,
+              45.0911228
+            ],
+            [
+              7.11587,
+              45.0910808
+            ],
+            [
+              7.1152342,
+              45.0907341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/257808962",
+      "properties": {
+        "@id": "way/257808962",
+        "addr:city": "Sampeyre",
+        "addr:postcode": "12020",
+        "addr:street": "Vallone di Sant'Anna",
+        "ele": "1810",
+        "name": "Rifugio Meira Garneri",
+        "phone": "+39 0175 977181",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Meira Garneri"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1555463,
+              44.5569159
+            ],
+            [
+              7.1556741,
+              44.5569159
+            ],
+            [
+              7.1556674,
+              44.5570286
+            ],
+            [
+              7.1557717,
+              44.5570286
+            ],
+            [
+              7.155765,
+              44.557146
+            ],
+            [
+              7.1554689,
+              44.5571484
+            ],
+            [
+              7.1554689,
+              44.557031
+            ],
+            [
+              7.1555463,
+              44.5570286
+            ],
+            [
+              7.1555463,
+              44.5569159
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/257812397",
+      "properties": {
+        "@id": "way/257812397",
+        "addr:city": "Val della Torre",
+        "ele": "1328",
+        "name": "Rifugio Portia",
+        "source": "italian wikipedia",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Portia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.4094996,
+              45.1875531
+            ],
+            [
+              7.4096045,
+              45.1875778
+            ],
+            [
+              7.4095652,
+              45.1876497
+            ],
+            [
+              7.4094588,
+              45.187624
+            ],
+            [
+              7.4094996,
+              45.1875531
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/257816409",
+      "properties": {
+        "@id": "way/257816409",
+        "area": "yes",
+        "name": "Rifugio Stroppia",
+        "phone": "+39 0175 249370",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Stroppia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.8983316,
+              44.5093199
+            ],
+            [
+              6.8983488,
+              44.5092672
+            ],
+            [
+              6.8983847,
+              44.5092725
+            ],
+            [
+              6.8983687,
+              44.5093246
+            ],
+            [
+              6.8983316,
+              44.5093199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/257818306",
+      "properties": {
+        "@id": "way/257818306",
+        "addr:city": "Ormea",
+        "building": "yes",
+        "description": "Deposito chiavi: Bar dell'Olmo - Ormea - phone  0174391266",
+        "ele": "2010",
+        "name": "Rifugio Valcaira",
+        "tourism": "alpine_hut",
+        "url": "http://www.caiormea.it/rifugio.html",
+        "wikipedia": "it:Rifugio Valcaira"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.8453138,
+              44.1636976
+            ],
+            [
+              7.8454875,
+              44.1637638
+            ],
+            [
+              7.8454448,
+              44.1638214
+            ],
+            [
+              7.8452711,
+              44.1637552
+            ],
+            [
+              7.8453138,
+              44.1636976
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/259084356",
+      "properties": {
+        "@id": "way/259084356",
+        "name": "Rifugio Cruello",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0879468,
+              44.8159709
+            ],
+            [
+              7.087818,
+              44.8159142
+            ],
+            [
+              7.0877954,
+              44.81594
+            ],
+            [
+              7.0877421,
+              44.8159166
+            ],
+            [
+              7.0878348,
+              44.8158106
+            ],
+            [
+              7.0880169,
+              44.8158908
+            ],
+            [
+              7.0879468,
+              44.8159709
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/280991289",
+      "properties": {
+        "@id": "way/280991289",
+        "building": "yes",
+        "name": "Rifugio Quarzina",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugioquarzina.it/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.8604524,
+              44.1275767
+            ],
+            [
+              7.8604401,
+              44.1274775
+            ],
+            [
+              7.8605776,
+              44.1274687
+            ],
+            [
+              7.86059,
+              44.1275679
+            ],
+            [
+              7.8604524,
+              44.1275767
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/283179288",
+      "properties": {
+        "@id": "way/283179288",
+        "building": "yes",
+        "contact:phone": "+39 339 6235078",
+        "name": "Rifugio degli Invincibili",
+        "phone": "+39 340 5342622",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1346924,
+              44.8199013
+            ],
+            [
+              7.1346843,
+              44.8198576
+            ],
+            [
+              7.1347724,
+              44.8198494
+            ],
+            [
+              7.1347805,
+              44.8198931
+            ],
+            [
+              7.1346924,
+              44.8199013
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/283859854",
+      "properties": {
+        "@id": "way/283859854",
+        "building": "yes",
+        "name": "Ricovero Rochette",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.7588005,
+              45.0006347
+            ],
+            [
+              6.7588085,
+              45.0006063
+            ],
+            [
+              6.7589721,
+              45.0006271
+            ],
+            [
+              6.7589695,
+              45.0006575
+            ],
+            [
+              6.7588005,
+              45.0006347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/285226721",
+      "properties": {
+        "@id": "way/285226721",
+        "alt_name": "Foresteria di Carnino",
+        "building": "public",
+        "name": "Foresteria Parco del Marguareis",
+        "source": "Regione Liguria",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.7351604,
+              44.1478372
+            ],
+            [
+              7.7352415,
+              44.1477454
+            ],
+            [
+              7.7353031,
+              44.1477861
+            ],
+            [
+              7.7353611,
+              44.1478289
+            ],
+            [
+              7.7352936,
+              44.1479024
+            ],
+            [
+              7.7351604,
+              44.1478372
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/285908136",
+      "properties": {
+        "@id": "way/285908136",
+        "building": "yes",
+        "ele": "1883",
+        "name": "Rifugio Balma",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.7758299,
+              44.2288716
+            ],
+            [
+              7.7758282,
+              44.2287601
+            ],
+            [
+              7.7758164,
+              44.2287598
+            ],
+            [
+              7.7757974,
+              44.2286398
+            ],
+            [
+              7.7758301,
+              44.2286415
+            ],
+            [
+              7.7758404,
+              44.2285879
+            ],
+            [
+              7.7758735,
+              44.2285855
+            ],
+            [
+              7.7759653,
+              44.2285882
+            ],
+            [
+              7.7759728,
+              44.2286291
+            ],
+            [
+              7.7759943,
+              44.2286596
+            ],
+            [
+              7.7760108,
+              44.228739
+            ],
+            [
+              7.776034,
+              44.228745
+            ],
+            [
+              7.7760335,
+              44.2287989
+            ],
+            [
+              7.7760143,
+              44.2287993
+            ],
+            [
+              7.7760193,
+              44.2288686
+            ],
+            [
+              7.7758299,
+              44.2288716
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/285925694",
+      "properties": {
+        "@id": "way/285925694",
+        "building": "yes",
+        "name": "Rifugio Mettolo Castellino",
+        "operator": "CAI",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.742111,
+              44.2460814
+            ],
+            [
+              7.7422039,
+              44.2459956
+            ],
+            [
+              7.7422877,
+              44.2460369
+            ],
+            [
+              7.742193,
+              44.2461208
+            ],
+            [
+              7.742111,
+              44.2460814
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/289225996",
+      "properties": {
+        "@id": "way/289225996",
+        "building": "yes",
+        "description": "Rifugio chiuso, chiedere le chiavi al Bar di Chialvetta",
+        "name": "Capanna Sociale Unerzio",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9902723,
+              44.4394347
+            ],
+            [
+              6.9902522,
+              44.4393843
+            ],
+            [
+              6.9904007,
+              44.439325
+            ],
+            [
+              6.9904208,
+              44.4393755
+            ],
+            [
+              6.9902723,
+              44.4394347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/291743119",
+      "properties": {
+        "@id": "way/291743119",
+        "building": "yes",
+        "name": "Rifugio Talarico",
+        "operator": "CAI Genova",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Talarico"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9823188,
+              44.3230151
+            ],
+            [
+              6.9822988,
+              44.3229163
+            ],
+            [
+              6.9827498,
+              44.3228758
+            ],
+            [
+              6.9827688,
+              44.3229696
+            ],
+            [
+              6.9823188,
+              44.3230151
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/293034542",
+      "properties": {
+        "@id": "way/293034542",
+        "building": "yes",
+        "name": "Rifugio Piani di San Lorenzo",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Piani di San Lorenzo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.1097235,
+              44.7266124
+            ],
+            [
+              9.1098193,
+              44.7265292
+            ],
+            [
+              9.1101123,
+              44.7267015
+            ],
+            [
+              9.1100323,
+              44.7267636
+            ],
+            [
+              9.1100095,
+              44.7267513
+            ],
+            [
+              9.1099955,
+              44.7267619
+            ],
+            [
+              9.1097235,
+              44.7266124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/298752375",
+      "properties": {
+        "@id": "way/298752375",
+        "name": "Rif. degli Alpini",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9813733,
+              44.6814444
+            ],
+            [
+              6.9814257,
+              44.6813677
+            ],
+            [
+              6.9816006,
+              44.6814278
+            ],
+            [
+              6.9815511,
+              44.6815004
+            ],
+            [
+              6.9813733,
+              44.6814444
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/299937871",
+      "properties": {
+        "@id": "way/299937871",
+        "building": "yes",
+        "name": "Capanna Resegotti",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9003526,
+              45.9263404
+            ],
+            [
+              7.9003582,
+              45.9263841
+            ],
+            [
+              7.900249,
+              45.926391
+            ],
+            [
+              7.9002433,
+              45.9263473
+            ],
+            [
+              7.9003526,
+              45.9263404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/307624801",
+      "properties": {
+        "@id": "way/307624801",
+        "building": "yes",
+        "name": "M Basodino",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.421546,
+              46.4345941
+            ],
+            [
+              8.4214521,
+              46.4346001
+            ],
+            [
+              8.4214336,
+              46.4344617
+            ],
+            [
+              8.4215275,
+              46.4344557
+            ],
+            [
+              8.421546,
+              46.4345941
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/308457553",
+      "properties": {
+        "@id": "way/308457553",
+        "access": "yes",
+        "building": "yes",
+        "capacity": "8",
+        "name": "Rifugio Chionea",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugiochionea.it"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.8928306,
+              44.152257
+            ],
+            [
+              7.8928813,
+              44.1521335
+            ],
+            [
+              7.8929714,
+              44.1521526
+            ],
+            [
+              7.8929207,
+              44.152276
+            ],
+            [
+              7.8928306,
+              44.152257
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/353049774",
+      "properties": {
+        "@id": "node/353049774",
+        "addr:city": "Alagna Valsesia",
+        "ele": "4554",
+        "name": "Rifugio Capanna Regina Margherita",
+        "name:it": "Rifugio Capanna Regina Margherita",
+        "operator": "CAI Varallo Sesia",
+        "source": "CAI Valle d'Aosta",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugimonterosa.it/",
+        "wikipedia": "it:Capanna Regina Margherita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.876883,
+          45.9269716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/436225796",
+      "properties": {
+        "@id": "node/436225796",
+        "cuisine": "regional",
+        "ele": "1993",
+        "name": "Rifugio Gattascosa",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1585444,
+          46.156503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/443032745",
+      "properties": {
+        "@id": "node/443032745",
+        "name": "Posto Tappa Pagliero",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2466722,
+          44.504002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/443032760",
+      "properties": {
+        "@id": "node/443032760",
+        "name": "Posto Tappa",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1092695,
+          44.5050023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/443032762",
+      "properties": {
+        "@id": "node/443032762",
+        "name": "Posto Tappa Elva Serre",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0898535,
+          44.5398773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/443032807",
+      "properties": {
+        "@id": "node/443032807",
+        "name": "Rifugio Alpino Palent (Posto Tappa)",
+        "phone": "+39 340 8237898",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugioalpinopalent.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1382032,
+          44.4871268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/443354660",
+      "properties": {
+        "@id": "node/443354660",
+        "operator": "Brigata Alpina Taurinese",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7957761,
+          44.9027927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/448941830",
+      "properties": {
+        "@id": "node/448941830",
+        "ele": "1770",
+        "name": "Rifugio Citta Di Arona",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1484143,
+          46.2744423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/448941867",
+      "properties": {
+        "@id": "node/448941867",
+        "name": "Rifugio Sesto Calende",
+        "tourism": "alpine_hut",
+        "website": "http://www.caisestocalende.org/rifugio.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2615837,
+          46.3203445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/451702146",
+      "properties": {
+        "@id": "node/451702146",
+        "name": "GTA Posto-Tappa Trinità",
+        "phone": "+39 0171 978388",
+        "tourism": "alpine_hut",
+        "website": "http://www.locandadelsorriso.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4309505,
+          44.2145151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/454099288",
+      "properties": {
+        "@id": "node/454099288",
+        "capacity": "24",
+        "contact:email": "info@ontemoropass.it",
+        "contact:phone": "+39 0324 65544",
+        "contact:website": "http://www.caimacugnaga.org/rifugi/30-gaspare-oberto.html",
+        "ele": "2796",
+        "name": "Rifugio Gaspare Oberto - Paolo Maroli",
+        "operator": "Club Alpino Italiano Sezione di Macugnaga",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9788053,
+          45.9965901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/454099980",
+      "properties": {
+        "@id": "node/454099980",
+        "contact:website": "http://www.caisaronno.it/06_Rifugio/Rifugio.htm",
+        "cuisine": "regional",
+        "ele": "1827",
+        "name": "Rifugio Cai Saronno",
+        "opening_hours": "Club Alpino Italiano Sezione di Saronno",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9249347,
+          45.9663274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/454569408",
+      "properties": {
+        "@id": "node/454569408",
+        "capacity": "65",
+        "contact:email": "info@rifugiopastore.it",
+        "contact:phone": "+39 0163 91220",
+        "contact:website": "http://www.rifugiopastore.it/",
+        "ele": "1575",
+        "name": "Rifugio Pastore",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9282197,
+          45.8838271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/530186826",
+      "properties": {
+        "@id": "node/530186826",
+        "contact:email": "valcot.rifugio@gmail.com",
+        "contact:website": "http://www.wengwaldhutte.it/",
+        "name": "Rifugio Wengwald Hutte",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9222708,
+          45.9660199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/540670102",
+      "properties": {
+        "@id": "node/540670102",
+        "ele": "1000",
+        "name": "Rifugio Fantoli",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4620223,
+          45.985218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/552421501",
+      "properties": {
+        "@id": "node/552421501",
+        "ele": "1050",
+        "name": "Rifugio Piana del Ponte",
+        "operator": "Alessandra Baldo",
+        "phone": "+39 366 397 65 95",
+        "source": "Not lawfully accessible by car. Parking available at Casa del Pescatore.",
+        "tourism": "alpine_hut",
+        "website": "http://http://www.pianadelponte.altervista.org/Il_Rifugio_Piana_del_Ponte.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0645962,
+          45.6762717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/648758484",
+      "properties": {
+        "@id": "node/648758484",
+        "ele": "2335",
+        "name": "Rifugio La Gardetta",
+        "operator": "Club Alpino Italiano",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio della Gardetta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0121439,
+          44.4092144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/824512166",
+      "properties": {
+        "@id": "node/824512166",
+        "description": "Chiuso: per le chiavi rivolgersi a Ristobar, Piazza Umberto 1° Noasca",
+        "ele": "1520",
+        "name": "Rifugio Noaschetta",
+        "operator": "Club Alpino Italiano sezione Rivarolo Canavese",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3220974,
+          45.4649387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/825250098",
+      "properties": {
+        "@id": "node/825250098",
+        "ele": "1667",
+        "name": "Rifugio Guido Muzio",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiomuzio.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1860274,
+          45.4513575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/831944801",
+      "properties": {
+        "@id": "node/831944801",
+        "ele": "1250",
+        "name": "Rifugio Blitz",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5363762,
+          46.1449454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/885143239",
+      "properties": {
+        "@id": "node/885143239",
+        "name": "Refugio San Bernard",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1933186,
+          46.1516533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/970679663",
+      "properties": {
+        "@id": "node/970679663",
+        "ele": "1518m",
+        "email": "cai.gravellona@libero.it",
+        "internet_access": "no",
+        "name": "Rifugio Gravellona",
+        "phone": "+39 0323 837051",
+        "tourism": "alpine_hut",
+        "website": "http://www.caipiemonte.it/rifugi.php?p=&id=188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3617957,
+          45.9505693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/970680229",
+      "properties": {
+        "@id": "node/970680229",
+        "ele": "1287m",
+        "name": "Capanna Legnano",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3806972,
+          45.9633559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1013365540",
+      "properties": {
+        "@id": "node/1013365540",
+        "capacity": "25",
+        "contact:website": "http://www.caitortona.net/rifugio.htm",
+        "ele": "1397",
+        "name": "Rifugio Ezio Orsi",
+        "operator": "Club Alpino Italiano Sezione di Tortona",
+        "phone": "+39 338 4964613",
+        "start_date": "2004",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Ezio Orsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1665806,
+          44.699306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1036112442",
+      "properties": {
+        "@id": "node/1036112442",
+        "name": "Rifugio Mulatero",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3352959,
+          44.6710089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1036987133",
+      "properties": {
+        "@id": "node/1036987133",
+        "contact:mobile": "+39 3456143884",
+        "ele": "1240",
+        "name": "Alpe Parpinasca",
+        "operator": "Cooperativa Sociale \"La Coccinella\"",
+        "tourism": "alpine_hut",
+        "website": "http://www.bedandtrek.eu",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3533421,
+          46.1050956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1076060015",
+      "properties": {
+        "@id": "node/1076060015",
+        "ele": "1770",
+        "name": "Rifugio alpino Daniele Arlaud",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9075008,
+          45.0586629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1082487647",
+      "properties": {
+        "@id": "node/1082487647",
+        "name": "Rifugio Crespi-Calderini",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9101968,
+          45.8885588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1102717471",
+      "properties": {
+        "@id": "node/1102717471",
+        "ele": "1468",
+        "name": "Rifugio Vaccera",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2022301,
+          44.8757586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1108414247",
+      "properties": {
+        "@id": "node/1108414247",
+        "name": "Posto Tappa GTA",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0325808,
+          44.583598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1116937545",
+      "properties": {
+        "@id": "node/1116937545",
+        "name": "Miravidi",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3315555,
+          44.6618286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1185771230",
+      "properties": {
+        "@id": "node/1185771230",
+        "ele": "1850",
+        "name": "Pian dell'Orso (1850m)",
+        "note": "Cappella e Rifugio libero",
+        "place": "locality",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2110011,
+          45.0791502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1248773770",
+      "properties": {
+        "@id": "node/1248773770",
+        "ele": "1000",
+        "name": "Rifugio privato",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3551235,
+          44.4855605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1289379697",
+      "properties": {
+        "@id": "node/1289379697",
+        "addr:city": "Acceglio",
+        "ele": "1650",
+        "name": "Posto Tappa Campo Base",
+        "tourism": "alpine_hut",
+        "website": "http://www.campobaseacceglio.it/",
+        "wikipedia": "it:Rifugio Campo Base"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9195004,
+          44.4978825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1289379699",
+      "properties": {
+        "@id": "node/1289379699",
+        "name": "Posto Tappe Arata",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1027459,
+          44.4513203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1306767727",
+      "properties": {
+        "@id": "node/1306767727",
+        "ele": "970",
+        "name": "Rifugio Primatesta",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3118677,
+          45.7872757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1332532510",
+      "properties": {
+        "@id": "node/1332532510",
+        "contact:mobile": "+39 333 6734875",
+        "ele": "2205",
+        "email": "rifugiolariposa@yahoo.it",
+        "name": "la Riposa",
+        "operator": "Privato",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0816201,
+          45.1786396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1346557734",
+      "properties": {
+        "@id": "node/1346557734",
+        "name": "Rifugio \"Comino\"",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7099243,
+          44.2274045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1374037026",
+      "properties": {
+        "@id": "node/1374037026",
+        "name": "Posto Tappa",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0701575,
+          44.2853515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1388585135",
+      "properties": {
+        "@id": "node/1388585135",
+        "ele": "1546",
+        "email": "canischio@ruparpiemonte.it",
+        "internet_access": "no",
+        "name": "Rifugio San Bernardo di Mares (chiuso 4 posti)",
+        "operator": "Comune di Canischio",
+        "phone": "+39 0124 659998",
+        "tourism": "alpine_hut",
+        "website": "http://www.caicvl.eu/rifugio_mares.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5572399,
+          45.3892329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1396800986",
+      "properties": {
+        "@id": "node/1396800986",
+        "ele": "1380",
+        "name": "Rifugio Bertorello",
+        "operator": "ristorante damawilù ex scoiattolo di san lorenzo",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2451607,
+          44.6365519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1399016333",
+      "properties": {
+        "@id": "node/1399016333",
+        "addr:city": "Antronapiana",
+        "addr:street": "Loc. Cheggio",
+        "capacity": "24",
+        "contact:phone": "+39 0324 575977 +39 340 7370762",
+        "contact:website": "http://www.rifugionovara.com/",
+        "ele": "1474",
+        "name": "Rifugio Città di Novara",
+        "operator": "Club Alpino Italiano Sezione di Villadossola",
+        "shower": "yes",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1168632,
+          46.0851972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1412880759",
+      "properties": {
+        "@id": "node/1412880759",
+        "ele": "1670",
+        "email": "rifugioalpesoglia@alice.it",
+        "name": "Rifugio Alpe Soglia",
+        "phone": "+39 011 928946",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugioalpesoglia.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5186793,
+          45.3666466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1414937192",
+      "properties": {
+        "@id": "node/1414937192",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6840634,
+          46.0565425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1417425966",
+      "properties": {
+        "@id": "node/1417425966",
+        "name": "Infernotto",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.239748,
+          44.726757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1437227056",
+      "properties": {
+        "@id": "node/1437227056",
+        "capacity": "30",
+        "contact:phone": "+ 39 0163 91901",
+        "contact:website": "http://www.rifugimonterosa.it/",
+        "ele": "2201",
+        "name": "Rifugio Abate Antonio Carestia all'Alpe Pile",
+        "operator": "Club Alpino Italiano Sezione di Varallo Sesia",
+        "shower": "yes",
+        "source": "pcn 2006",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio abate Antonio Carestia",
+        "winter_room": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.895912,
+          45.8033143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1458569403",
+      "properties": {
+        "@id": "node/1458569403",
+        "name": "Rifugio Monte Veccio",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5828079,
+          46.1013829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1686383768",
+      "properties": {
+        "@id": "node/1686383768",
+        "contact:mobile": "+39 335 5995023",
+        "email": "info@rifugiodahuds.com",
+        "internet_access": "yes",
+        "name": "Dahu de Sabarnui",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiodahuds.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0441968,
+          44.2609888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1709143830",
+      "properties": {
+        "@id": "node/1709143830",
+        "name": "Rifugio Navonera",
+        "tourism": "alpine_hut",
+        "website": "http://www.ana.mondovi.com/home/?id_pg=109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8772332,
+          44.243921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1720721851",
+      "properties": {
+        "@id": "node/1720721851",
+        "capacity": "20",
+        "contact:email": "residencepineta@gmail.com",
+        "contact:phone": "+39 328 4424913",
+        "ele": "2180",
+        "name": "Rifugio Vallè",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9939379,
+          45.9044432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1781762453",
+      "properties": {
+        "@id": "node/1781762453",
+        "ele": "1580",
+        "name": "Rifugio Salvin",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4324882,
+          45.3491435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1790248634",
+      "properties": {
+        "@id": "node/1790248634",
+        "ele": "1462",
+        "name": "Rifugio Preit",
+        "operator": "Unguarded-closed",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1874371,
+          44.5909462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1819313385",
+      "properties": {
+        "@id": "node/1819313385",
+        "addr:city": "Balme",
+        "ele": "2279",
+        "name": "Bivacco Bruno Molino",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Bivacco Molino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2319343,
+          45.3265154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1835327698",
+      "properties": {
+        "@id": "node/1835327698",
+        "name": "Ricovero Desertes",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.751859,
+          45.0000866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1844329399",
+      "properties": {
+        "@id": "node/1844329399",
+        "name": "Rifugio Viviere",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiodiviviere.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9859588,
+          44.4358363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1870156385",
+      "properties": {
+        "@id": "node/1870156385",
+        "name": "Rifugio Madonna della Neve",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9612252,
+          45.6766422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1891304503",
+      "properties": {
+        "@id": "node/1891304503",
+        "name": "Rifugio Casa Assietta",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.940355,
+          45.0611097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1891307142",
+      "properties": {
+        "@id": "node/1891307142",
+        "name": "Rifugio Serafin",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1076369,
+          44.9896184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1934939375",
+      "properties": {
+        "@id": "node/1934939375",
+        "name": "Alpe La Bonda",
+        "note": "nessuna notizia in ambito internet (rifugio nuovo ?)",
+        "operator": "CAI",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1551371,
+          45.8407977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1936514515",
+      "properties": {
+        "@id": "node/1936514515",
+        "name": "Alpe Panin",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1596635,
+          45.753153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1936515235",
+      "properties": {
+        "@id": "node/1936515235",
+        "name": "Rifugio Val Mala",
+        "note": "nussuna notizia reperibile su internet (rifugio nuovo ?), integrare informazioni, non visibile in pcn e bing",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1402211,
+          45.7837726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1968790913",
+      "properties": {
+        "@id": "node/1968790913",
+        "name": "Rifugio Gias Morteis",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6289914,
+          44.2708457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1975669700",
+      "properties": {
+        "@id": "node/1975669700",
+        "name": "Bivacco Giorgio Ielmoni",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6473133,
+          46.1155502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1975693359",
+      "properties": {
+        "@id": "node/1975693359",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6251597,
+          46.1092973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2063187252",
+      "properties": {
+        "@id": "node/2063187252",
+        "contact:email": "info@rifugiomila.it",
+        "contact:phone": "+39 0124 953230",
+        "contact:website": "http://www.rifugiomila.it/",
+        "name": "Rifugio Massimo Mila",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.210962,
+          45.4405373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2098015376",
+      "properties": {
+        "@id": "node/2098015376",
+        "amenity": "internet_access_yes",
+        "ele": "2093",
+        "internet_access": "yes",
+        "name": "B&B Alpe Sattal",
+        "note": "non è un rifugio ma un b&b",
+        "operator": "Giuseppe",
+        "tourism": "alpine_hut",
+        "website": "http://www.alpesattal.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9524386,
+          45.8566277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2119277094",
+      "properties": {
+        "@id": "node/2119277094",
+        "capacity": "26",
+        "contact:website": "http://www.caivercelli.it/barba-ferrero/barba-ferrero.php",
+        "ele": "2246",
+        "name": "Rifugio Barba Ferrero",
+        "operator": "Club Alpino Italiano Sezione di Vercelli",
+        "source": "pcn2006+gps",
+        "tourism": "alpine_hut",
+        "winter_room": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9099807,
+          45.9028158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2187349647",
+      "properties": {
+        "@id": "node/2187349647",
+        "capacity": "24",
+        "contact:email": "caiolgiate@yahoo.it",
+        "contact:phone": "+39 0163 91207; +39 334 5631105",
+        "contact:website": "http://www.caiolgiate.it/rifugio.php",
+        "cuisine": "local",
+        "ele": "2264",
+        "name": "Rifugio Santino Ferioli",
+        "operator": "Club Alpino Italiano - Sezione di Olgiate Olona",
+        "tourism": "alpine_hut",
+        "winter_room": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9589054,
+          45.8774776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2187413315",
+      "properties": {
+        "@id": "node/2187413315",
+        "contact:phone": "+39 347 8658335",
+        "ele": "1923",
+        "name": "Rifugio Alpe Campo Superiore",
+        "operator": "Club Alpino Italiano  Sottosezione di Alagna",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9541732,
+          45.8609198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2188631463",
+      "properties": {
+        "@id": "node/2188631463",
+        "ele": "1750",
+        "name": "Rifugio Pietro Crosta",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2572335,
+          46.2364959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2188674694",
+      "properties": {
+        "@id": "node/2188674694",
+        "capacity": "16",
+        "ele": "1664",
+        "name": "Rifugio Zar Senni",
+        "tourism": "alpine_hut",
+        "website": "http://it.wikipedia.org/wiki/Rifugio Zar Senni",
+        "wikipedia": "it:Rifugio Zar Senni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9212326,
+          45.8448057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2191000650",
+      "properties": {
+        "@id": "node/2191000650",
+        "contact:phone": "+39 0163 91918",
+        "ele": "1380",
+        "name": "Rifugio Valle Vogna",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9307556,
+          45.8147129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2192973329",
+      "properties": {
+        "@id": "node/2192973329",
+        "ele": "2491",
+        "name": "Ospizio Sottile",
+        "source": "CAI Valle DÀosta",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Ospizio Sottile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8659305,
+          45.7884738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2196135325",
+      "properties": {
+        "@id": "node/2196135325",
+        "capacity": "25",
+        "contact:email": "info@grandehalte.it",
+        "contact:phone": "+39 348 8752203",
+        "contact:website": "http://www.grandehalte.it/",
+        "ele": "1945",
+        "name": "Rifugio Città di Mortara - Grande Halte",
+        "operator": "Club Alpino Italiano Sezione di Mortara",
+        "source": "pcn 2006",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9094408,
+          45.8639164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2223044607",
+      "properties": {
+        "@id": "node/2223044607",
+        "contact:phone": "+39 0163 77295;+39 348 2447729",
+        "ele": "1560",
+        "name": "Rifugio Meggiana",
+        "operator": "private",
+        "source": "pcn 2006",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0417386,
+          45.7491258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2261244224",
+      "properties": {
+        "@id": "node/2261244224",
+        "capacity": "20",
+        "contact:phone": "+39 0163 95650",
+        "ele": "2082",
+        "name": "Rifugio Massero all'Alpe Massero",
+        "opening_hours": "Parco Naturale Alta Valsesia",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0164601,
+          45.9133774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2262534726",
+      "properties": {
+        "@id": "node/2262534726",
+        "capacity": "40",
+        "contact:phone": "+39 0163 95645",
+        "contact:website": "http://www.caiboffaloraticino.it/Rifugio2.htm",
+        "ele": "1685",
+        "name": "Rifugio Paolo Majerna - CAI Boffalora -",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0626447,
+          45.9193198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2270368210",
+      "properties": {
+        "@id": "node/2270368210",
+        "contact:email": "info@seccio.it",
+        "contact:phone": "+39 346 4050369",
+        "contact:website": "http://www.seccio.it/",
+        "name": "Rifugio La Baita",
+        "note": "per favore verificare identificazione fabbricato",
+        "operator": "private",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.106586,
+          45.8539087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2297103624",
+      "properties": {
+        "@id": "node/2297103624",
+        "contact:phone": "+09 339 4602133",
+        "contact:website": "http://www.rifugiorosazza.altervista.org/Home.html",
+        "name": "Rifugio Rosazza",
+        "operator": "private",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9505795,
+          45.6340451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2297103652",
+      "properties": {
+        "@id": "node/2297103652",
+        "capacity": "40",
+        "contact:email": "rifugiosavoia@gmail.com",
+        "contact:phone": "+39 015 8495131",
+        "contact:website": "http://www.rifugiosavoia.it/",
+        "ele": "1810",
+        "name": "Rifugio Savoia",
+        "operator": "private",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9477071,
+          45.6330195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2339727152",
+      "properties": {
+        "@id": "node/2339727152",
+        "name": "Rifugio Pian dell'Arma",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiopiandellarma.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9355411,
+          44.1181179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2340597139",
+      "properties": {
+        "@id": "node/2340597139",
+        "capacity": "20",
+        "ele": "1623",
+        "name": "Rifugio Spanna-Osella",
+        "operator": "Associazione Nazionale Alpini di Varallo",
+        "source": "pcn 2006",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Spanna-Osella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2167139,
+          45.7937323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2355924816",
+      "properties": {
+        "@id": "node/2355924816",
+        "name": "Rifugio l'Arbergh (Palanfre)",
+        "phone": "+39 340 6973954",
+        "tourism": "alpine_hut",
+        "website": "http://www.palanfre.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.497696,
+          44.1961701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2404079505",
+      "properties": {
+        "@id": "node/2404079505",
+        "name": "Baita del Monte Gelas",
+        "tourism": "alpine_hut",
+        "website": "http://www.bmgelas.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3863644,
+          44.1754937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2404079507",
+      "properties": {
+        "@id": "node/2404079507",
+        "name": "Rifugio San Giacomo",
+        "tourism": "alpine_hut",
+        "website": "http://www.bmgelas.it/italiano/rifugio-san-giacomo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3858799,
+          44.1757043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2414426628",
+      "properties": {
+        "@id": "node/2414426628",
+        "contact:website": "http://www.caivilladossola.it/catasto/rifugi.htm?A",
+        "ele": "1728",
+        "name": "Rifugio Alpe Colma",
+        "note": "rifugio non custodito (in pratica bivacco)",
+        "operator": "Club Alpino Italiano Sezione di Villadossola",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1932678,
+          46.0342128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2455869020",
+      "properties": {
+        "@id": "node/2455869020",
+        "name": "Posto Tappa",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1058022,
+          44.231347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2462634766",
+      "properties": {
+        "@id": "node/2462634766",
+        "ele": "2642",
+        "email": "info@caichieri.it",
+        "name": "Rifugio Tazzetti",
+        "operator": "CAI",
+        "phone": "+39 0123 756165",
+        "tourism": "alpine_hut",
+        "website": "www.rifugiotazzetti.it",
+        "wikipedia": "it:Rifugio Ernesto Tazzetti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0968767,
+          45.2100596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2493482417",
+      "properties": {
+        "@id": "node/2493482417",
+        "ele": "2260",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0814749,
+          45.925903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694844847",
+      "properties": {
+        "@id": "node/2694844847",
+        "name": "Winter room Rifugio Soria Ellena",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3632791,
+          44.1406444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2700224294",
+      "properties": {
+        "@id": "node/2700224294",
+        "capacity": "18",
+        "contact:phone": "+39 032 3924240",
+        "ele": "1405",
+        "name": "Rifugio Baita Omegna",
+        "operator": "Club Alpino Italiano Sezione di Omegna",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Gran Baita CAI Omegna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4472648,
+          45.8800505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2747882240",
+      "properties": {
+        "@id": "node/2747882240",
+        "addr:city": "Alagna Valsesia",
+        "ele": "2863",
+        "name": "Rifugio Città di Vigevano",
+        "note": "chiuso nel 2014",
+        "operator": "CAI",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio città di Vigevano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8736319,
+          45.8710256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2747882245",
+      "properties": {
+        "@id": "node/2747882245",
+        "addr:city": "Alagna Valsesia",
+        "ele": "2866",
+        "name": "Rifugio Guglielmina",
+        "note": "unfit for use from 2011-12-22 for fire - inagibile dal 22 -12-2011 causa incendio",
+        "operator": "CAI",
+        "tourism": "alpine_hut",
+        "url": "http://www.rifugioguglielmina.com",
+        "wikipedia": "it:Rifugio Guglielmina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8724212,
+          45.8706798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2749576726",
+      "properties": {
+        "@id": "node/2749576726",
+        "ele": "1491",
+        "name": "Rifugio Nigritella",
+        "note": "Open only in summer season",
+        "phone": "+39 032492456",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4842463,
+          46.1096473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2898974105",
+      "properties": {
+        "@id": "node/2898974105",
+        "ele": "1550",
+        "name": "Rifugio Alpe Campo",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0739095,
+          45.8548666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2911368579",
+      "properties": {
+        "@id": "node/2911368579",
+        "ele": "1050",
+        "name": "Rifugio Solivo",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1119259,
+          45.8430445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2949696747",
+      "properties": {
+        "@id": "node/2949696747",
+        "name": "Rifugio Fratelli Gugliermina",
+        "source": "Guida ai Rifugi del CAI",
+        "tourism": "alpine_hut",
+        "wheelchair": "no",
+        "wikipedia": "it:Capanna Fratelli Gugliermina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.882396,
+          45.9124034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2949839549",
+      "properties": {
+        "@id": "node/2949839549",
+        "name": "Rifugio Pian della Ballotta",
+        "source": "Guida ai Rifugi del CAI",
+        "tourism": "alpine_hut",
+        "wikipedia": "it:Rifugio Pian della Ballotta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1176871,
+          45.4597034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3018568580",
+      "properties": {
+        "@id": "node/3018568580",
+        "name": "Rifugio Eugenio Sella",
+        "operator": "CAI",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9123744,
+          45.9875223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3069864816",
+      "properties": {
+        "@id": "node/3069864816",
+        "name": "La Stria Rusa",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5368438,
+          46.1452588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3069875563",
+      "properties": {
+        "@id": "node/3069875563",
+        "name": "Rifugio La bricola",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5351862,
+          46.1457847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3099106529",
+      "properties": {
+        "@id": "node/3099106529",
+        "name": "CAI Sez. Villadossola: Rifugio Rondolini",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2313478,
+          46.0429592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3099207576",
+      "properties": {
+        "@id": "node/3099207576",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1081714,
+          45.9251189
+        ]
+      }
+    }
+  ]
+}
