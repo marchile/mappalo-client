@@ -42,7 +42,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="about-btn"><i class="fa fa-question-circle white"></i>About</a></li>
-            <li class="dropdown">
+<!--            <li class="dropdown">
               <a id="toolsDrop" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe white"></i>Tools <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="full-extent-btn"><i class="fa fa-arrows-alt"></i>Zoom To Full Extent</a></li>
@@ -60,7 +60,8 @@
                   <li><a href="data/DOITT_MUSEUM_01_13SEPT2010.geojson" download="museums.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>Museums</a></li>
                 </ul>
             </li>
-            <li class="hidden-xs"><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="list-btn"><i class="fa fa-list white"></i>POI List</a></li>
+-->
+            <li class="hidden-xs"><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="list-btn"><i class="fa fa-list white"></i>Lista dei Rifugi</a></li>
           </ul>
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group has-feedback">
@@ -124,41 +125,55 @@
         <div class="modal-content">
           <div class="modal-header">
             <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Welcome to the BootLeaf template!</h4>
+            <h4 class="modal-title">Il progetto Piemonte Sentieri</h4>
           </div>
           <div class="modal-body">
             <ul class="nav nav-tabs" id="aboutTabs">
-              <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-question-circle"></i>&nbsp;About the project</a></li>
-              <li><a href="#contact" data-toggle="tab"><i class="fa fa-envelope"></i>&nbsp;Contact us</a></li>
+              <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-question-circle"></i>&nbsp;Il progetto</a></li>
+              <li><a href="#squadra" data-toggle="tab"><i class="fa fa-group"></i>&nbsp;La nostra squadra</a></li>
+              <li><a href="#contact" data-toggle="tab"><i class="fa fa-envelope"></i>&nbsp;Scriveteci</a></li>
               <li><a href="#disclaimer" data-toggle="tab"><i class="fa fa-exclamation-circle"></i>&nbsp;Disclaimer</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>&nbsp;Metadata <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>&nbsp;Attribution<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#boroughs-tab" data-toggle="tab">Boroughs</a></li>
-                  <li><a href="#subway-lines-tab" data-toggle="tab">Subway Lines</a></li>
-                  <li><a href="#theaters-tab" data-toggle="tab">Theaters</a></li>
-                  <li><a href="#museums-tab" data-toggle="tab">Museums</a></li>
+                  <li><a href="#mappa-tab" data-toggle="tab">La mappa</a></li>
+                  <li><a href="#software-tab" data-toggle="tab">Il software</a></li>
                 </ul>
               </li>
             </ul>
             <div class="tab-content" id="aboutTabsContent">
               <div class="tab-pane fade active in" id="about">
-                <p>A simple, responsive template for building web mapping applications with <a href="http://getbootstrap.com/">Bootstrap 3</a>, <a href="http://leafletjs.com/" target="_blank">Leaflet</a>, and <a href="http://twitter.github.io/typeahead.js/" target="_blank">typeahead.js</a>. Open source, MIT licensed, and available on <a href="https://github.com/bmcbride/bootleaf" target="_blank">GitHub</a>.</p>
-                <div class="panel panel-primary">
-                  <div class="panel-heading">Features</div>
-                  <ul class="list-group">
-                    <li class="list-group-item">Fullscreen mobile-friendly map template with responsive navbar and modal placeholders</li>
-                    <li class="list-group-item">jQuery loading of external GeoJSON files</li>
-                    <li class="list-group-item">Logical multiple layer marker clustering via the <a href="https://github.com/Leaflet/Leaflet.markercluster" target="_blank">leaflet marker cluster plugin</a></li>
-                    <li class="list-group-item">Elegant client-side multi-layer feature search with autocomplete using <a href="http://twitter.github.io/typeahead.js/" target="_blank">typeahead.js</a></li>
-                    <li class="list-group-item">Responsive sidebar feature list synced with map bounds, which includes sorting and filtering via <a href="http://listjs.com/" target="_blank">list.js</a></li>
-                    <li class="list-group-item">Marker icons included in grouped layer control via the <a href="https://github.com/ismyrnow/Leaflet.groupedlayercontrol" target="_blank">grouped layer control plugin</a></li>
-                  </ul>
-                </div>
+                <p>Piemonte sentieri è una mappa con i percorsi escursionistici, i rifugi e i bivacchi dell’intera Regione Piemonte.</p>
+                <p>I percorsi escursionistici sono indicati  diversamente sulla mappa sulla base delle seguenti categorie:</p>
+                <ul>
+                  <li><img src='assets/icons/iwn.png' width='34' height='8'> percorsi di interesse internazionale</li>
+                  <li><img src='assets/icons/nwn.png' width='34' height='8'> percorsi di interesse nazionale</li>
+                  <li><img src='assets/icons/rwn.png' width='34' height='8'> percorsi di interesse regionale</li>
+                  <li><img src='assets/icons/lwn.png' width='34' height='6'> percorsi di interesse locale</li>
+                </ul>                                                                                                        
+                <p>La mappa di base è costruita con dati della Regione Piemonte (la parte fisica della mappa) e con i dati di <a href="http://www.openstreetmap.org/">OpenStreetMap</a>.</p>
+                <p>I dati relativi ai percorsi e ai rifugi e bivacchi, sono interamente estratti da <a href="http://www.openstreetmap.org/">OpenStreetMap</a>.</p>
+                <p>Questo significa due cose:</p>
+                <ol>
+                  <li>se contribuisci alla mappa di OpenStreetMap, tale contributo si riflette anche sulla mappa del Piemonte, e non solo.</li>
+                  <li>se inserisci percorsi escursionistici in OpenStreetMap, tali percorsi verranno visualizzati anche nella mappa del Piemonte, e non solo.</li>
+                </ol>
+                <p>Se vuoi contribuire, entra nella comunità e diventa un mappatore di OpenStreetMap!</p>
+                <p>Infine, se vuoi inserire la mappa in un tuo portale web, ti invitiamo a farlo. Qui sotto trovi il codice per l’embed:</p>
+                <textarea id="" name="" class="form-control" rows="3">&lt;iframe width='100%' height='520' frameborder='0' src='http://piemonte.mappalo.org/'&gt;&lt;/iframe&gt;</textarea>
+              </div>
+              <div id="squadra" class="tab-pane fade text-group">
+                <p>Siamo un gruppo di amici appassionati di montagna, tecnologia e mappe.</p>
+                <p>Marco Barbieri, cartografo</p>
+                <p>Mirko Del Caldo, web designer</p>
+                <p>Giuseppe Milanesi, advisor</p>
+                <p>Alessio Piccioli, lead developer</p>
               </div>
               <div id="disclaimer" class="tab-pane fade text-danger">
-                <p>The data provided on this site is for informational and planning purposes only.</p>
-                <p>Absolutely no accuracy or completeness guarantee is implied or intended. All information on this map is subject to such variations and corrections as might result from a complete title search and/or accurate field survey.</p>
+                <p>I contenuti del Sito NON POSSONO ESSERE verificati dal proprietario nella loro correttezza, accuratezza e attualità. Essi devono quindi essere considerati dall'Utente come dati di dubbia attendibilità, che in nessun caso possono sostituire una valutazione diretta, attenta e responsabile, da parte dell'Utente medesimo.</p>
+                <p>Il proprietario, peraltro, è sollevato da ogni responsabilità per eventuali errori od inesattezze presenti nei contenuti. Il proprietario non è responsabile del contenuto di qualsiasi altro sito web tramite il quale - attraverso un hyperlink - l'Utente abbia raggiunto il Sito, e di quello dei siti web accessibili - via hyperlink - dal Sito medesimo.</p>
+                <p>Il proprietario non è in alcun modo responsabile per eventuali perdite o danni subiti dall'Utente per qualsiasi ragione in conseguenza dell'accesso da parte del medesimo a siti web cui il Sito sia collegato tramite hyperlink.</p>
+                <p>Il proprietario non è inoltre responsabile per danni derivanti da eventuali interruzioni, sospensioni, ritardi o anomalie nel collegamento al Sito dipendenti dalla fornitura di energia elettrica o dal servizio telefonico o da cattivo funzionamento della rete Internet oppure da ogni altra causa non dipendente del proprietario stesso.</p>
               </div>
               <div class="tab-pane fade" id="contact">
                 <form id="contact-form">
@@ -191,17 +206,14 @@
                   </div>
                 </form>
               </div>
-              <div class="tab-pane fade" id="boroughs-tab">
-                <p>Borough data courtesy of <a href="http://www.nyc.gov/html/dcp/html/bytes/meta_dis_nyboroughwi.shtml" target="_blank">New York City Department of City Planning</a></p>
+              <div class="tab-pane fade" id="software-tab">
+                <p>Piemonte Sentieri è stato sviluppato sulla base di BootLeaf, un template per costruire applicazione cartografiche web con Bootstrap 3, Leaflet, e typeahead.js.</p>
+                <p>Piemonte Sentieri è un progetto open source, distribuito con licenza <a href="http://opensource.org/licenses/MIT">MIT</a>, disponibile su GitHub<a href="https://github.com/marchile/mappalo-client">GitHub</a>.</p>
               </div>
-              <div class="tab-pane fade" id="subway-lines-tab">
-                <p><a href="http://spatialityblog.com/2010/07/08/mta-gis-data-update/#datalinks" target="_blank">MTA Subway data</a> courtesy of the <a href="http://www.urbanresearch.org/about/cur-components/cuny-mapping-service" target="_blank">CUNY Mapping Service at the Center for Urban Research</a></p>
-              </div>
-              <div class="tab-pane fade" id="theaters-tab">
-                <p>Theater data courtesy of <a href="https://data.cityofnewyork.us/Recreation/Theaters/kdu2-865w" target="_blank">NYC Department of Information & Telecommunications (DoITT)</a></p>
-              </div>
-              <div class="tab-pane fade" id="museums-tab">
-                <p>Museum data courtesy of <a href="https://data.cityofnewyork.us/Recreation/Museums-and-Galleries/sat5-adpb" target="_blank">NYC Department of Information & Telecommunications (DoITT)</a></p>
+              <div class="tab-pane fade" id="mappa-tab">
+                <p>La mappa è costituita da un livello statico di base (una mappa fisica costruita con dati DEM e LandCover della Regione Piemonte) e da un livello superiore collegato dinamicamente ai dati di OpenStreetMap.</p>
+                <p>I dati della Regione Piemonte sono distribuiti con licenza CCBY - © Regione Piemonte</p>
+                <p>I dati di OpenStreetMap sono distribuiti con licenza ODbL -  <a href="http://www.openstreetmap.org/">© OpenStreetMap contributors</a></p>
               </div>
             </div>
           </div>
@@ -211,7 +223,7 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
+<!--
     <div class="modal fade" id="legendModal" tabindex="-1" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -225,10 +237,11 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
+        </div>
+      </div>
+    </div>
+-->
+<!--
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
@@ -254,9 +267,10 @@
             <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
             <button type="submit" class="btn btn-primary" data-dismiss="modal">Login</button>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+      </div>
+  </div> 
+-->
 
     <div class="modal fade" id="featureModal" tabindex="-1" role="dialog">
       <div class="modal-dialog">

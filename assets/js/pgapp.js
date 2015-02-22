@@ -76,7 +76,7 @@ function sidebarClick(id) {
 /* Basemap Layers */
 var mappm = L.layerGroup([L.tileLayer("http://www.webmapp.it/maps/piemonte/pmt/{z}/{x}/{y}.png", {
   maxZoom: 15,
-  attribution: 'Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
+  attribution: 'Map data: (c) <a href="http://www.dati.piemonte.it/" target="_blank">Regione Piemonte</a>, under CC-BY'
 }), L.mapbox.tileLayer('marcobarbieri.6f24b918')]);
 var mapsat =  L.mapbox.tileLayer('marcobarbieri.l0ca30pl');
 
@@ -84,7 +84,7 @@ var mapsat =  L.mapbox.tileLayer('marcobarbieri.l0ca30pl');
 
 var mapfis = L.tileLayer("http://www.webmapp.it/maps/piemonte/pmt/{z}/{x}/{y}.png", {
   maxZoom: 15,
-  attribution: 'Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
+  attribution: 'Map data: (c) <a href="http://www.dati.piemonte.it/" target="_blank">Regione Piemonte</a>, under CC-BY'
 });
 
 /* Overlay Layers */
@@ -552,7 +552,7 @@ var attributionControl = L.control({
 });
 attributionControl.onAdd = function (map) {
   var div = L.DomUtil.create("div", "leaflet-control-attribution");
-  div.innerHTML = "<span class='hidden-xs'>Developed by <a href='http://bryanmcbride.com'>bryanmcbride.com</a> | </span><a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Attribution</a>";
+  div.innerHTML = "<a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Attribution</a>";
   return div;
 };
 map.addControl(attributionControl);
