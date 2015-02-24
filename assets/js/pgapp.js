@@ -344,6 +344,9 @@ map.on("load", function ( e ) {
 
 map.setView([45.2903, 7.9898], 12);
 
+/* Added plugin leaflet-hash to add dinamic URL hashes to web-map pages */
+var hash = new L.Hash(map);
+
 map.on("moveend", function ( e ) {
       var bbox = (map.getBounds().toBBoxString());
       var pgiwn_url = "http://188.166.15.99/mappalo/pgiwn.php?bbox="+bbox;
