@@ -110,87 +110,32 @@ $.getJSON("data/boundingbox.geojson", function (data) {
   boundingbox.addData(data);
 });
 
-var sentieriIwn = L.geoJson(null, {
-  style: function (feature) {
-    return {
-        color: "#BD00BF",
-        weight: 5,
-        opacity: 0.8
-    };
-  },
-  onEachFeature: function (feature, layer) {
-    if (feature.properties) {
-      var content = 
-      "<div>" +
-         "<table class='table table-striped table-bordered table-condensed'>" +
-         "<tr><th>Network</th><td>Importanza internazionale  <img src='assets/icons/iwn.png' width='34' height='8'></td></tr>" +
-         "<tr><th>Nome</th><td>" + feature.properties.route_name + "</td></tr>" +
-         "<tr><th>Numero o codice</th><td>" + feature.properties.ref  + "</td></tr>" +
-         "<tr><th>Ente gestore</th><td>" + feature.properties.operator  + "</td></tr>" +
-//         "<tr><th>Stato</th><td>" + feature.properties.state + "</td></tr>" +
-         "<tr><th>Descrizione</th><td>" + feature.properties.description  + "</td></tr>" +
-         "<tr><th>Lunghezza</th><td>" + feature.properties.distance + "</td></tr>" +
-         "<tr><th>Dislivello positivo</th><td>" + feature.properties.ascent + "</td></tr>" +
-         "<tr><th>Dislivello negativo</th><td>" + feature.properties.descent + "</td></tr>" +
-         "<tr><th>Percorso circolare</th><td>" + feature.properties.roundtrip  + "</td></tr>" +
-         "<tr><th>Web</th><td><a class='url-break' href='" + feature.properties.website + "' target='_blank'>" + feature.properties.website + "</a></td></tr>"
-         "</table>" +
-      "</div>";
-      var nomesent = "<p>" + feature.properties.ref + " " + feature.properties.route_name + "</p>";
-      layer.on({
-        click: function (e) {
-          $("#feature-title").html(nomesent);
-          $("#feature-info").html(content);
-          $("#featureModal").modal("show");
-      map.fitBounds(e.target.getBounds());
-        }
-      });
-    }
-    layer.on({
-      mouseover: function (e) {
-        var layer = e.target;
-        layer.setStyle({
-          weight: 4,
-          color: "#00FFFF",
-          opacity: 1
-        });
-        if (!L.Browser.ie && !L.Browser.opera) {
-          layer.bringToFront();
-        }
-      },
-      mouseout: function (e) {
-        sentieriIwn.resetStyle(e.target);
-      }
-    });
-  }
-});
-
-var sentieriNwn = L.geoJson(null, {
+/** Refacoring Actions sentieri **/
+function sentieriAll(type,color,weight,type_icon) {
+	var sentieriLwn = L.geoJson(null, {
   style: function (feature) {
       return {
-        color: "#30A500",
-        weight: 5,
+        color: color,
+        weight: weight,
         opacity: 0.8
       };
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = 
-      "<div>" +
-         "<table class='table table-striped table-bordered table-condensed'>" +
-         "<tr><th>Network</th><td>Importanza nazionale  <img src='assets/icons/nwn.png' width='34' height='8'></td></tr>" +
-         "<tr><th>Nome</th><td>" + feature.properties.route_name + "</td></tr>" +
-         "<tr><th>Numero o codice</th><td>" + feature.properties.ref  + "</td></tr>" +
-         "<tr><th>Ente gestore</th><td>" + feature.properties.operator  + "</td></tr>" +
+		var content = "<div> <table class='table table-striped table-bordered table-condensed'>";
+		content = content + "<tr><th>Network</th><td>Importanza " + type + "  <img src='assets/icons/"+type_icon+"' width='34' height='6'></td></tr>";
+        if(feature.properties.route_name) content = content + "<tr><th>Nome</th><td>" + feature.properties.route_name + "</td></tr>" ;
+        if(feature.properties.ref) content = content + "<tr><th>Numero o codice</th><td>" + feature.properties.ref  + "</td></tr>" ;
+        if(feature.properties.operator) content = content + "<tr><th>Ente gestore</th><td>" + feature.properties.operator  + "</td></tr>" ;
 //         "<tr><th>Stato</th><td>" + feature.properties.state + "</td></tr>" +
-         "<tr><th>Descrizione</th><td>" + feature.properties.description  + "</td></tr>" +
-         "<tr><th>Lunghezza</th><td>" + feature.properties.distance + "</td></tr>" +
-         "<tr><th>Dislivello positivo</th><td>" + feature.properties.ascent + "</td></tr>" +
-         "<tr><th>Dislivello negativo</th><td>" + feature.properties.descent + "</td></tr>" +
-         "<tr><th>Percorso circolare</th><td>" + feature.properties.roundtrip  + "</td></tr>" +
-         "<tr><th>Web</th><td><a class='url-break' href='" + feature.properties.website + "' target='_blank'>" + feature.properties.website + "</a></td></tr>"
-         "</table>" +
-      "</div>";
+		if(feature.properties.description) content = content + "<tr><th>Descrizione</th><td>" + feature.properties.description  + "</td></tr>" ;
+		if(feature.properties.distance) content = content + "<tr><th>Lunghezza</th><td>" + feature.properties.distance + "</td></tr>" ;
+		if(feature.properties.ascent) content = content + "<tr><th>Dislivello positivo</th><td>" + feature.properties.ascent + "</td></tr>" ;
+		if(feature.properties.descent) content = content + "<tr><th>Dislivello negativo</th><td>" + feature.properties.descent + "</td></tr>" ;
+		if(feature.properties.roundtrip) content = content + "<tr><th>Percorso circolare</th><td>" + feature.properties.roundtrip  + "</td></tr>" ;
+		if(feature.properties.website) content = content + "<tr><th>Web</th><td><a class='url-break' href='" + feature.properties.website + "' target='_blank'>" + feature.properties.website + "</a></td></tr>" ;
+		content = content + "</table></div>";
+		
       var nomesent = "<p>" + feature.properties.ref + " " + feature.properties.route_name + "</p>";
       layer.on({
         click: function (e) {
@@ -205,117 +150,7 @@ var sentieriNwn = L.geoJson(null, {
       mouseover: function (e) {
         var layer = e.target;
         layer.setStyle({
-          weight: 5,
-          color: "#00FFFF",
-          opacity: 1
-        });
-        if (!L.Browser.ie && !L.Browser.opera) {
-          layer.bringToFront();
-        }
-      },
-      mouseout: function (e) {
-        sentieriNwn.resetStyle(e.target);
-      }
-    });
-  }
-});
-
-var sentieriRwn = L.geoJson(null, {
-  style: function (feature) {
-      return {
-        color: "#FF8806",
-        weight: 5,
-        opacity: 0.8
-      };
-  },
-  onEachFeature: function (feature, layer) {
-    if (feature.properties) {
-      var content = 
-      "<div>" +
-         "<table class='table table-striped table-bordered table-condensed'>" +
-         "<tr><th>Network</th><td>Importanza regionale  <img src='assets/icons/rwn.png' width='34' height='8'></td></tr>" +
-         "<tr><th>Nome</th><td>" + feature.properties.route_name + "</td></tr>" +
-         "<tr><th>Numero o codice</th><td>" + feature.properties.ref  + "</td></tr>" +
-         "<tr><th>Ente gestore</th><td>" + feature.properties.operator  + "</td></tr>" +
-//         "<tr><th>Stato</th><td>" + feature.properties.state + "</td></tr>" +
-         "<tr><th>Descrizione</th><td>" + feature.properties.description  + "</td></tr>" +
-         "<tr><th>Lunghezza</th><td>" + feature.properties.distance + "</td></tr>" +
-         "<tr><th>Dislivello positivo</th><td>" + feature.properties.ascent + "</td></tr>" +
-         "<tr><th>Dislivello negativo</th><td>" + feature.properties.descent + "</td></tr>" +
-         "<tr><th>Percorso circolare</th><td>" + feature.properties.roundtrip  + "</td></tr>" +
-         "<tr><th>Web</th><td><a class='url-break' href='" + feature.properties.website + "' target='_blank'>" + feature.properties.website + "</a></td></tr>"
-         "</table>" +
-      "</div>";
-      var nomesent = "<p>" + feature.properties.ref + " " + feature.properties.route_name + "</p>";
-      layer.on({
-        click: function (e) {
-          $("#feature-title").html(nomesent);
-          $("#feature-info").html(content);
-          $("#featureModal").modal("show");
-      map.fitBounds(e.target.getBounds());
-        }
-      });
-    }
-    layer.on({
-      mouseover: function (e) {
-        var layer = e.target;
-        layer.setStyle({
-          weight: 5,
-          color: "#00FFFF",
-          opacity: 1
-        });
-        if (!L.Browser.ie && !L.Browser.opera) {
-          layer.bringToFront();
-        }
-      },
-      mouseout: function (e) {
-        sentieriRwn.resetStyle(e.target);
-      }
-    });
-  }
-});
-
-var sentieriLwn = L.geoJson(null, {
-  style: function (feature) {
-      return {
-        color: "#E53920",
-        weight: 3,
-        opacity: 0.8
-      };
-  },
-  onEachFeature: function (feature, layer) {
-    if (feature.properties) {
-      var content = 
-      "<div>" +
-         "<table class='table table-striped table-bordered table-condensed'>" +
-         "<tr><th>Network</th><td>Importanza locale  <img src='assets/icons/lwn.png' width='34' height='6'></td></tr>" +
-         "<tr><th>Nome</th><td>" + feature.properties.route_name + "</td></tr>" +
-         "<tr><th>Numero o codice</th><td>" + feature.properties.ref  + "</td></tr>" +
-         "<tr><th>Ente gestore</th><td>" + feature.properties.operator  + "</td></tr>" +
-//         "<tr><th>Stato</th><td>" + feature.properties.state + "</td></tr>" +
-         "<tr><th>Descrizione</th><td>" + feature.properties.description  + "</td></tr>" +
-         "<tr><th>Lunghezza</th><td>" + feature.properties.distance + "</td></tr>" +
-         "<tr><th>Dislivello positivo</th><td>" + feature.properties.ascent + "</td></tr>" +
-         "<tr><th>Dislivello negativo</th><td>" + feature.properties.descent + "</td></tr>" +
-         "<tr><th>Percorso circolare</th><td>" + feature.properties.roundtrip  + "</td></tr>" +
-         "<tr><th>Web</th><td><a class='url-break' href='" + feature.properties.website + "' target='_blank'>" + feature.properties.website + "</a></td></tr>"
-         "</table>" +
-      "</div>";
-      var nomesent = "<p>" + feature.properties.ref + " " + feature.properties.route_name + "</p>";
-      layer.on({
-        click: function (e) {
-          $("#feature-title").html(nomesent);
-          $("#feature-info").html(content);
-          $("#featureModal").modal("show");
-      map.fitBounds(e.target.getBounds());
-        }
-      });
-    }
-    layer.on({
-      mouseover: function (e) {
-        var layer = e.target;
-        layer.setStyle({
-          weight: 5,
+          weight: weight,
           color: "#00FFFF",
           opacity: 1
         });
@@ -330,6 +165,14 @@ var sentieriLwn = L.geoJson(null, {
   }
 });
 
+return sentieriLwn;
+
+};
+
+var sentieriLwn = sentieriAll("locale","#E53920", 3 ,"lwn.png");
+var sentieriIwn = sentieriAll("internazionale","#BD00BF", 5 ,"iwn.png");
+var sentieriNwn = sentieriAll("nazionale","#30A500", 5 ,"nwn.png");
+var sentieriRwn = sentieriAll("regionale","#FF8806", 5 ,"rwn.png");
 
 /* Single marker cluster layer to hold all clusters */
 var markerClusters = new L.MarkerClusterGroup({
