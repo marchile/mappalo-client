@@ -313,6 +313,21 @@ map = L.map('map', {
 
 /* Layer control listeners that allow for a single markerClusters layer */
 
+function updateWidget() {
+	var cont = $(location).attr('href');
+	if(cont.indexOf('#')>0) cont = cont.substr(0,cont.indexOf('#'));
+	var center = map.getCenter(),
+  			    zoom = map.getZoom(),
+			    precision = Math.max(0, Math.ceil(Math.log(zoom) / Math.LN2));
+	
+     var hash = "#" + [zoom,
+				center.lat.toFixed(precision),
+				center.lng.toFixed(precision)
+			].join("/");
+    
+	$("#widget-iframe").html("&lt;iframe width='100%' height='520' frameborder='0' src='"+cont+hash+"'&gt;&lt;/iframe&gt;");
+}
+
 
 map.on("load", function ( e ) {
       var bbox = (map.getBounds().toBBoxString());
@@ -346,8 +361,9 @@ map.setView([45.2903, 7.9898], 12);
 
 /* Added plugin leaflet-hash to add dinamic URL hashes to web-map pages */
 var hash = new L.Hash(map);
+updateWidget();
 
-map.on("moveend", function ( e ) {
+map.on("moveend", function ( e ) {	
       var bbox = (map.getBounds().toBBoxString());
       var pgiwn_url = "http://188.166.15.99/mappalo/pgiwn.php?bbox="+bbox;
       var pgnwn_url = "http://188.166.15.99/mappalo/pgnwn.php?bbox="+bbox;
@@ -368,6 +384,7 @@ map.on("moveend", function ( e ) {
         map.removeLayer(sentieriNwn);
         map.removeLayer(sentieriRwn);
       }
+	  updateWidget();
 });
 
 map.on("moveend", function ( e ) {
