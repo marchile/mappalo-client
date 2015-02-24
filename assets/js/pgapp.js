@@ -215,7 +215,12 @@ var rifugi = L.geoJson(null, {
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" + "<tr><th>Phone</th><td>" + feature.properties.phone + "</td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.website + "' target='_blank'>" + feature.properties.website + "</a></td></tr>" + "<table>";
+		var content = "<table class='table table-striped table-bordered table-condensed'>";
+		content = content + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>"; 
+		if(feature.properties.ele) content = content + "<tr><th>Quota</th><td>" + feature.properties.ele + "</td></tr>";
+		if(feature.properties.phone) content = content + "<tr><th>Phone</th><td>" + feature.properties.phone + "</td></tr>";
+		if(feature.properties.website) content = content + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.website + "' target='_blank'>" + feature.properties.website + "</a></td></tr>";
+		content = content + "<table>";
       layer.on({
         click: function (e) {
           $("#feature-title").html(feature.properties.name);
@@ -263,7 +268,10 @@ var bivacchi = L.geoJson(null, {
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" + "<tr><th>Quota</th><td>" + feature.properties.ele + "</td></tr>" + "<table>";
+		var content = "<table class='table table-striped table-bordered table-condensed'>";
+		content = content + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>";
+		if(feature.properties.ele) content = content + "<tr><th>Quota</th><td>" + feature.properties.ele + "</td></tr>";
+		content = content + "<table>";
       layer.on({
         click: function (e) {
           $("#feature-title").html(feature.properties.name);
