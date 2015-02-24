@@ -476,6 +476,8 @@ $("#featureModal").on("hidden.bs.modal", function (e) {
 /* Typeahead search functionality */
 $(document).one("ajaxStop", function () {
   $("#loading").hide();
+  featureList = new List("features", {valueNames: ["feature-name"]});
+  featureList.sort("feature-name", {order:"asc"});
 
   var rifugiBH = new Bloodhound({
     name: "Rifugi",
