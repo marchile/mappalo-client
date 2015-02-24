@@ -136,7 +136,19 @@ function sentieriAll(type,color,weight,type_icon) {
 		if(feature.properties.website) content = content + "<tr><th>Web</th><td><a class='url-break' href='" + feature.properties.website + "' target='_blank'>" + feature.properties.website + "</a></td></tr>" ;
 		content = content + "</table></div>";
 		
-      var nomesent = "<p>" + feature.properties.ref + " " + feature.properties.route_name + "</p>";
+		
+        var nomesent ;
+		if(feature.properties.route_name) {
+	        nomesent = "<p>" + feature.properties.route_name + "</p>";
+			
+		}
+		else if (feature.properties.ref) {
+	        nomesent = "<p>" + feature.properties.ref + "</p>";			
+		}
+		else {
+	        nomesent = "<p>Nome sconosciuto</p>";						
+		}
+		
       layer.on({
         click: function (e) {
           $("#feature-title").html(nomesent);
