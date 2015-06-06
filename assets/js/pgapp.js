@@ -1,4 +1,9 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFyY29iYXJiaWVyaSIsImEiOiJpU3pTWFFrIn0.GlDg3OgUheOFRBU5siy76w';
+
+var southWest = L.latLng(43.7741,6.5369),
+    northEast = L.latLng(46.4729,9.4016),
+    bounds = L.latLngBounds(southWest, northEast);
+
 var map, featureList, /*boundingboxSearch = [],*/ rifugiSearch = [], bivacchiSearch = [];
 
 $(document).on("click", ".feature-row", function(e) {
@@ -73,6 +78,39 @@ function sidebarClick(id) {
   }
 }
 
+function syncSidebar() {
+  /* Empty sidebar features */
+  $("#feature-list tbody").empty();
+  /* Loop through layers and add only features which are in the map bounds */
+/* rifugi */
+  rifugi.eachLayer(function (layer) {
+    if (map.hasLayer(rifugiLayer)) {
+//      if (map.getBounds().contains(layer.getLatLng())) {
+      if (bounds.contains(layer.getLatLng())) {
+        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="15" height="19" src="assets/icons/red.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+      }
+    }
+  });
+/* bivacchi */
+  bivacchi.eachLayer(function (layer) {
+    if (map.hasLayer(bivacchiLayer)) {
+//      if (map.getBounds().contains(layer.getLatLng())) {
+      if (bounds.contains(layer.getLatLng())) {
+        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="15" height="19" src="assets/icons/blue.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+      }
+    }
+  });
+  /* Update list.js featureList */
+  featureList = new List("features", {
+    valueNames: ["feature-name"]
+  });
+  featureList.sort("feature-name", {
+    order: "asc"
+  });
+}
+
+
+
 /* Basemap Layers */
 var mappm = L.layerGroup([L.tileLayer("http://www.webmapp.it/maps/piemonte/pmt/{z}/{x}/{y}.png", {
   maxZoom: 15,
@@ -110,7 +148,7 @@ $.getJSON("data/boundingbox.geojson", function (data) {
   boundingbox.addData(data);
 });
 
-/** Refacoring Actions sentieri **/
+/** Refactoring Actions sentieri **/
 function sentieriAll(type,color,weight,type_icon) {
 	var sentieriLwn = L.geoJson(null, {
   style: function (feature) {
@@ -297,10 +335,6 @@ $.getJSON("data/bivacchiosm.geojson", function (data) {
 });
 
 
-var southWest = L.latLng(43.7741,6.5369),
-    northEast = L.latLng(46.4729,9.4016),
-    bounds = L.latLngBounds(southWest, northEast);
-
 map = L.map('map', {
   layers: [mappm, markerClusters, highlight],
   zoomControl: false,
@@ -385,6 +419,7 @@ map.on("moveend", function ( e ) {
         map.removeLayer(sentieriRwn);
       }
 	  updateWidget();
+    syncSidebar();
 });
 
 map.on("moveend", function ( e ) {
@@ -403,18 +438,22 @@ map.on("moveend", function ( e ) {
 map.on("overlayadd", function(e) {
   if (e.layer === rifugiLayer) {
     markerClusters.addLayer(rifugi);
+    syncSidebar();
   }
   if (e.layer === bivacchiLayer) {
     markerClusters.addLayer(bivacchi);
+    syncSidebar();
   }
 });
 
 map.on("overlayremove", function(e) {
   if (e.layer === rifugiLayer) {
     markerClusters.removeLayer(rifugi);
+    syncSidebar();
   }
   if (e.layer === bivacchiLayer) {
     markerClusters.removeLayer(bivacchi);
+    syncSidebar();
   }
 });
 
